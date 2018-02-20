@@ -17,3 +17,4 @@
 | 티몬          |     https://tmondev.blog.me/        |             |
 | 더루프        | https://blog.theloop.co.kr/         | Blockchain  |
 | 김태용        | https://tykimos.github.io/          | AI          |
+| 야놀자        | https://yanolja.github.io/          |             |
