@@ -14,7 +14,9 @@
 | LINE          | https://engineering.linecorp.com/ko |             |
 | 스타일쉐어    | https://styleshare.github.io/       |             |
 | 데일리호텔    | https://dailyhotel.io/              |             |
-| 티몬          |https://tmondev.blog.me/        |             |
+| 티몬          | https://tmondev.blog.me/            |             |
 | 더루프        | https://blog.theloop.co.kr/         | Blockchain  |
 | 김태용        | https://tykimos.github.io/          | AI          |
-| 야놀자          | https://yanolja.github.io/          |             |
+| 야놀자        | https://yanolja.github.io/          |             |
+| Toast Meetup  | http://meetup.toast.com/            |             |
+| NTS           | http://wit.nts-corp.com/            |             |
