@@ -4,11 +4,11 @@
 |      Name     |                 Blog                |
 |:--------------|:-----------------------------------|
 | 스포카          | https://spoqa.github.io/            |
-| 우아한 형제들     | http://woowabros.github.io/         |
+| 우아한 형제들     | https://woowabros.github.io/         |
 | 카카오          | http://tech.kakao.com/              |
-| 레진           | http://tech.lezhin.com/             |
+| 레진           | https://tech.lezhin.com/             |
 | VCNC          | http://engineering.vcnc.co.kr/      |
-| Naver D2      | http://d2.naver.com/helloworld      |
+| Naver D2      | https://d2.naver.com/helloworld      |
 | LINE          | https://engineering.linecorp.com/ko/blog/ |
 | 스타일쉐어       | https://medium.com/styleshare       |
 | 데일리호텔       | https://dailyhotel.io/              |
