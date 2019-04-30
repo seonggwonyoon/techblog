@@ -15,3 +15,6 @@
 | 티몬            | https://tmondev.blog.me/            |
 | 야놀자          | https://yanolja.github.io/          |
 | 44BITS        | https://www.44bits.io/ko            |
+
+## PR & Issue
+Pull Requests 와 Issue는 언제든지 환영합니다!
