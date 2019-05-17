@@ -9,7 +9,7 @@
 | 레진           | https://tech.lezhin.com/             |
 | VCNC          | http://engineering.vcnc.co.kr/      |
 | Naver D2      | https://d2.naver.com/helloworld      |
-| LINE          | https://engineering.linecorp.com/ko/blog/ |
+| LINE          | https://engineering.linecorp.com/ko/ |
 | 스타일쉐어       | https://medium.com/styleshare       |
 | 데일리호텔       | https://dailyhotel.io/              |
 | 티몬            | https://tmondev.blog.me/            |
