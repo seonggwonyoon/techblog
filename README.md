@@ -5,7 +5,7 @@
 |:--------------|:-----------------------------------|
 | 스포카          | https://spoqa.github.io/            |
 | 우아한 형제들     | https://woowabros.github.io/         |
-| 카카오          | http://tech.kakao.com/              |
+| 카카오          | https://tech.kakao.com/blog/              |
 | 레진           | https://tech.lezhin.com/             |
 | VCNC          | http://engineering.vcnc.co.kr/      |
 | Naver D2      | https://d2.naver.com/helloworld      |
