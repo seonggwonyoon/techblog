@@ -31,6 +31,7 @@
 | NHN | https://meetup.toast.com/ |
 | Paypal | https://medium.com/paypal-engineering |
 | Riot Games | https://technology.riotgames.com/ |
+| Trivago | https://tech.trivago.com/ |
 | Twitter | https://blog.twitter.com/engineering |
 | VCNC | http://engineering.vcnc.co.kr/ |
 
