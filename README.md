@@ -4,6 +4,7 @@
 | Company | URL |
 |:--------|:--------|
 | 44BITS | https://www.44bits.io/ko |
+| 당근마켓 | https://medium.com/daangn |
 | 데일리호텔 | https://dailyhotel.io/ |
 | 레진 | https://tech.lezhin.com/ |
 | 렌딧 | https://lenditkr.github.io |
