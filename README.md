@@ -27,6 +27,7 @@
 | Instagram | https://instagram-engineering.com/ |
 | LINE | https://engineering.linecorp.com/ko/blog/ |
 | Linkedin | https://engineering.linkedin.com/blog |
+| Microsoft | https://devblogs.microsoft.com/ |
 | Naver D2 | https://d2.naver.com/helloworld |
 | Netflix | https://medium.com/netflix-techblog |
 | NHN | https://meetup.toast.com/ |
