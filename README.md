@@ -14,6 +14,7 @@
 | 뱅크샐러드 | https://blog.banksalad.com/ |
 | 스타일쉐어 | https://medium.com/styleshare |
 | 스포카 | https://spoqa.github.io/ |
+| 쏘카 | https://tech.socarcorp.kr/ |
 | 야놀자 | https://yanolja.github.io/ |
 | 우아한형제들 | https://woowabros.github.io/ |
 | 카카오 | https://tech.kakao.com/blog/ |
