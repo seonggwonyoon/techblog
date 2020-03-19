@@ -7,6 +7,7 @@
 | 농심데이타시스템 | https://tech.cloud.nongshim.co.kr/techblog/ |
 | 당근마켓 | https://medium.com/daangn |
 | 데일리호텔 | https://dailyhotel.io/ |
+| 리디 | https://www.ridicorp.com/blog/ |
 | 레진 | https://tech.lezhin.com/ |
 | 렌딧 | https://lenditkr.github.io |
 | 마켓컬리 | https://helloworld.kurly.com |
