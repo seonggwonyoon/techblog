@@ -10,15 +10,19 @@
 | 리디 | https://www.ridicorp.com/blog/ |
 | 레진 | https://tech.lezhin.com/ |
 | 렌딧 | https://lenditkr.github.io |
+| 드라마앤컴퍼니 | https://blog.dramancompany.com/ |
 | 마켓컬리 | https://helloworld.kurly.com |
 | 뱅크샐러드 | https://blog.banksalad.com/ |
 | 스타일쉐어 | https://medium.com/styleshare |
 | 스포카 | https://spoqa.github.io/ |
 | 쏘카 | https://tech.socarcorp.kr/ |
 | 야놀자 | https://yanolja.github.io/ |
+| 이스트소프트 | https://blog.est.ai/ |
 | 우아한형제들 | https://woowabros.github.io/ |
+| 크로키닷컴 | https://devblog.croquis.com/ko/ |
 | 카카오 | https://tech.kakao.com/blog/ |
 | 쿠팡 | https://medium.com/coupang-tech |
+| 플라네타리움 | https://snack.planetarium.dev/kor/ |
 | 하이퍼커넥트 | https://hyperconnect.github.io/ |
 | Airbnb | https://medium.com/airbnb-engineering |
 | Amazon | https://developer.amazon.com/blogs |
@@ -40,9 +44,3 @@
 | Trivago | https://tech.trivago.com/ |
 | Twitter | https://blog.twitter.com/engineering |
 | VCNC | http://engineering.vcnc.co.kr/ |
-
-## PR & Issue
-Pull Requests 와 Issue는 언제든지 환영합니다!
-
-### 기입 순서
-[0-9][ㄱ-ㅎ|ㅏ-ㅣ|가-힣][a-z]
