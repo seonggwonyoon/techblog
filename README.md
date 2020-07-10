@@ -1,6 +1,7 @@
 # techblog
 기술 블로그 모음
 
+## 국내
 | Company | URL |
 |:--------|:--------|
 | 44BITS | https://www.44bits.io/ko |
@@ -24,6 +25,14 @@
 | 쿠팡 | https://medium.com/coupang-tech |
 | 플라네타리움 | https://snack.planetarium.dev/kor/ |
 | 하이퍼커넥트 | https://hyperconnect.github.io/ |
+| LINE | https://engineering.linecorp.com/ko/blog/ |
+| Naver D2 | https://d2.naver.com/helloworld |
+| NHN | https://meetup.toast.com/ |
+| VCNC | http://engineering.vcnc.co.kr/ |
+
+## 해외
+| Company | URL |
+|:--------|:--------|
 | Airbnb | https://medium.com/airbnb-engineering |
 | Amazon | https://developer.amazon.com/blogs |
 | Dropbox | https://blogs.dropbox.com/tech/ |
@@ -33,14 +42,10 @@
 | Google Play | https://medium.com/googleplaydev |
 | Grab | https://engineering.grab.com/ |
 | Instagram | https://instagram-engineering.com/ |
-| LINE | https://engineering.linecorp.com/ko/blog/ |
 | Linkedin | https://engineering.linkedin.com/blog |
 | Microsoft | https://devblogs.microsoft.com/ |
-| Naver D2 | https://d2.naver.com/helloworld |
 | Netflix | https://medium.com/netflix-techblog |
-| NHN | https://meetup.toast.com/ |
 | Paypal | https://medium.com/paypal-engineering |
 | Riot Games | https://technology.riotgames.com/ |
 | Trivago | https://tech.trivago.com/ |
 | Twitter | https://blog.twitter.com/engineering |
-| VCNC | http://engineering.vcnc.co.kr/ |
