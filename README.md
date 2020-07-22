@@ -29,6 +29,7 @@
 | Naver D2 | https://d2.naver.com/helloworld |
 | NHN | https://meetup.toast.com/ |
 | VCNC | http://engineering.vcnc.co.kr/ |
+| 요기요 | https://medium.com/deliverytechkorea |
 
 ## 해외
 | Company | URL |
