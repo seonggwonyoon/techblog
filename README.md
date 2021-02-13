@@ -30,6 +30,7 @@
 | NHN | https://meetup.toast.com/ |
 | VCNC | http://engineering.vcnc.co.kr/ |
 | 요기요 | https://medium.com/deliverytechkorea |
+| TOAST UI | https://ui.toast.com/weekly-pick/ko |
 
 ## 해외
 | Company | URL |
