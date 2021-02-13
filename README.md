@@ -8,9 +8,9 @@
 | 농심데이타시스템 | https://tech.cloud.nongshim.co.kr/techblog/ |
 | 당근마켓 | https://medium.com/daangn |
 | 데일리호텔 | https://dailyhotel.io/ |
-| 리디 | https://www.ridicorp.com/blog/ |
 | 레진 | https://tech.lezhin.com/ |
 | 렌딧 | https://lenditkr.github.io |
+| 리디 | https://www.ridicorp.com/blog/ |
 | 드라마앤컴퍼니 | https://blog.dramancompany.com/ |
 | 마켓컬리 | https://helloworld.kurly.com |
 | 뱅크샐러드 | https://blog.banksalad.com/ |
@@ -18,19 +18,19 @@
 | 스포카 | https://spoqa.github.io/ |
 | 쏘카 | https://tech.socarcorp.kr/ |
 | 야놀자 | https://yanolja.github.io/ |
-| 이스트소프트 | https://blog.est.ai/ |
+| 요기요 | https://medium.com/deliverytechkorea |
 | 우아한형제들 | https://woowabros.github.io/ |
-| 크로키닷컴 | https://devblog.croquis.com/ko/ |
+| 이스트소프트 | https://blog.est.ai/ |
 | 카카오 | https://tech.kakao.com/blog/ |
+| 크로키닷컴 | https://devblog.croquis.com/ko/ |
 | 쿠팡 | https://medium.com/coupang-tech |
 | 플라네타리움 | https://snack.planetarium.dev/kor/ |
 | 하이퍼커넥트 | https://hyperconnect.github.io/ |
 | LINE | https://engineering.linecorp.com/ko/blog/ |
 | Naver D2 | https://d2.naver.com/helloworld |
-| NHN | https://meetup.toast.com/ |
-| VCNC | http://engineering.vcnc.co.kr/ |
-| 요기요 | https://medium.com/deliverytechkorea |
+| TOAST Meetup | https://meetup.toast.com/ |
 | TOAST UI | https://ui.toast.com/weekly-pick/ko |
+| VCNC | http://engineering.vcnc.co.kr/ |
 
 ## 해외
 | Company | URL |
