@@ -23,6 +23,7 @@
 | 우아한형제들 | https://woowabros.github.io/ |
 | 이스트소프트 | https://blog.est.ai/ |
 | 카카오 | https://tech.kakao.com/blog/ |
+| 카카오엔터프라이즈 | https://tech.kakaoenterprise.com/ |
 | 크로키닷컴 | https://devblog.croquis.com/ko/ |
 | 쿠팡 | https://medium.com/coupang-tech |
 | 토스 | https://toss.tech/ |
