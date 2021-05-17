@@ -22,6 +22,7 @@
 | 스포카 | https://spoqa.github.io/ |
 | 쏘카 | https://tech.socarcorp.kr/ |
 | 야놀자 | https://yanolja.github.io/ |
+| 왓챠 | https://medium.com/watcha |
 | 요기요 | https://medium.com/deliverytechkorea |
 | 우아한형제들 | https://woowabros.github.io/ |
 | 이스트소프트 | https://blog.est.ai/ |
