@@ -17,6 +17,7 @@
 | 매스프레소 | https://blog.mathpresso.com/ |
 | 무신사 | https://medium.com/musinsa-tech |
 | 뱅크샐러드 | https://blog.banksalad.com/ |
+| 브랜디 | http://labs.brandi.co.kr/ |
 | 스타일쉐어 | https://medium.com/styleshare |
 | 스포카 | https://spoqa.github.io/ |
 | 쏘카 | https://tech.socarcorp.kr/ |
