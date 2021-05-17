@@ -25,6 +25,7 @@
 | 왓챠 | https://medium.com/watcha |
 | 요기요 | https://medium.com/deliverytechkorea |
 | 우아한형제들 | https://woowabros.github.io/ |
+| 원티드 | https://medium.com/wantedjobs |
 | 이스트소프트 | https://blog.est.ai/ |
 | 직방 | https://medium.com/zigbang |
 | 카카오 | https://tech.kakao.com/blog/ |
