@@ -28,6 +28,7 @@
 | 토스 | https://toss.tech/ |
 | 플라네타리움 | https://snack.planetarium.dev/kor/ |
 | 하이퍼커넥트 | https://hyperconnect.github.io/ |
+| 휴먼스케이프 | https://medium.com/humanscape-tech |
 | LINE | https://engineering.linecorp.com/ko/blog/ |
 | Naver D2 | https://d2.naver.com/helloworld |
 | TOAST Meetup | https://meetup.toast.com/ |
