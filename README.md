@@ -25,6 +25,7 @@
 | 카카오 | https://tech.kakao.com/blog/ |
 | 크로키닷컴 | https://devblog.croquis.com/ko/ |
 | 쿠팡 | https://medium.com/coupang-tech |
+| 토스 | https://toss.tech/ |
 | 플라네타리움 | https://snack.planetarium.dev/kor/ |
 | 하이퍼커넥트 | https://hyperconnect.github.io/ |
 | LINE | https://engineering.linecorp.com/ko/blog/ |
