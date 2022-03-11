@@ -6,6 +6,7 @@
 |:--------|:--------|
 | 29CM | https://medium.com/29cm |
 | 44BITS | https://www.44bits.io/ko |
+| 넷마블 | https://netmarble.engineering/ |
 | 농심데이타시스템 | https://tech.cloud.nongshim.co.kr/techblog/ |
 | 당근마켓 | https://medium.com/daangn |
 | 드라마앤컴퍼니 | https://blog.dramancompany.com/ |
