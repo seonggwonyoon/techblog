@@ -31,8 +31,8 @@
 | 이스트소프트 | https://blog.est.ai/ |
 | 직방 | https://medium.com/zigbang |
 | 카카오 | https://tech.kakao.com/blog/ |
+| 카카오스타일 | https://devblog.croquis.com/ko/ |
 | 카카오엔터프라이즈 | https://tech.kakaoenterprise.com/ |
-| 크로키닷컴 | https://devblog.croquis.com/ko/ |
 | 쿠팡 | https://medium.com/coupang-tech |
 | 토스 | https://toss.tech/ |
 | 플라네타리움 | https://snack.planetarium.dev/kor/ |
