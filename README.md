@@ -8,6 +8,7 @@
 | 44BITS | https://www.44bits.io/ko |
 | 넷마블 | https://netmarble.engineering/ |
 | 농심데이타시스템 | https://tech.cloud.nongshim.co.kr/techblog/ |
+| 다나와 | https://danawalab.github.io/ |
 | 당근마켓 | https://medium.com/daangn |
 | 드라마앤컴퍼니 | https://blog.dramancompany.com/ |
 | 데일리호텔 | https://dailyhotel.io/ |
