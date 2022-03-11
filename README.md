@@ -13,6 +13,7 @@
 | 당근마켓 | https://medium.com/daangn |
 | 드라마앤컴퍼니 | https://blog.dramancompany.com/ |
 | 데일리호텔 | https://dailyhotel.io/ |
+| 데이블 | https://teamdable.github.io/techblog/ |
 | 레진 | https://tech.lezhin.com/ |
 | 렌딧 | https://lenditkr.github.io |
 | 리디 | https://www.ridicorp.com/blog/ |
@@ -35,6 +36,7 @@
 | 카카오스타일 | https://devblog.croquis.com/ko/ |
 | 카카오엔터프라이즈 | https://tech.kakaoenterprise.com/ |
 | 쿠팡 | https://medium.com/coupang-tech |
+| 클래스101 | https://medium.com/class101 |
 | 토스 | https://toss.tech/ |
 | 플라네타리움 | https://snack.planetarium.dev/kor/ |
 | 하이퍼커넥트 | https://hyperconnect.github.io/ |
