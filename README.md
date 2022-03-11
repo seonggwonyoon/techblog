@@ -6,6 +6,7 @@
 |:--------|:--------|
 | 29CM | https://medium.com/29cm |
 | 44BITS | https://www.44bits.io/ko |
+| 8퍼센트 | https://8percent.github.io/ |
 | 넷마블 | https://netmarble.engineering/ |
 | 농심데이타시스템 | https://tech.cloud.nongshim.co.kr/techblog/ |
 | 다나와 | https://danawalab.github.io/ |
