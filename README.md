@@ -32,6 +32,7 @@
 | 원티드 | https://medium.com/wantedjobs |
 | 이스트소프트 | https://blog.est.ai/ |
 | 직방 | https://medium.com/zigbang |
+| 채널톡 | https://channel.io/ko/blog/tag/tech |
 | 카카오 | https://tech.kakao.com/blog/ |
 | 카카오스타일 | https://devblog.croquis.com/ko/ |
 | 카카오엔터프라이즈 | https://tech.kakaoenterprise.com/ |
