@@ -63,6 +63,7 @@
 | Linkedin | https://engineering.linkedin.com/blog |
 | Microsoft | https://devblogs.microsoft.com/ |
 | Netflix | https://medium.com/netflix-techblog |
+| OpenAI | https://openai.com/blog/ |
 | Paypal | https://medium.com/paypal-engineering |
 | Riot Games | https://technology.riotgames.com/ |
 | Trivago | https://tech.trivago.com/ |
