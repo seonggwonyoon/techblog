@@ -1,0 +1,1185 @@
+[
+  {
+    "name": "29CM",
+    "region": "국내",
+    "url": "https://medium.com/29cm",
+    "topics": ["백엔드", "프론트엔드", "데이터"],
+    "feed": "https://medium.com/feed/29cm",
+    "archive": true,
+    "archiveNote": "팀 무신사로 이전",
+    "activity": {
+      "published": "2025-06-02",
+      "checked": "2026-11-25",
+      "post": "https://medium.com/29cm/29cm-테크-블로그가-팀-무신사로-이사갑니다-0358344feed2"
+    }
+  },
+  {
+    "name": "42dot",
+    "region": "국내",
+    "url": "https://42dot.ai/ko/stories/blog-news",
+    "topics": ["AI", "로보틱스", "모바일"],
+    "aliases": ["포티투닷", "자율주행", "SDV"]
+  },
+  {
+    "name": "44BITS",
+    "region": "국내",
+    "url": "https://www.44bits.io/",
+    "topics": ["인프라", "개발 도구"],
+    "feed": "https://www.44bits.io/feed.xml"
+  },
+  {
+    "name": "8퍼센트",
+    "region": "국내",
+    "url": "https://8percent.github.io/",
+    "topics": ["프론트엔드", "데이터", "백엔드"],
+    "aliases": ["에잇퍼센트"],
+    "activity": {
+      "published": "2024-07-15",
+      "checked": "2026-11-25",
+      "post": "https://8percent.github.io/2024-07-15/frontend-eds-improvement/"
+    }
+  },
+  {
+    "name": "NHN Cloud Meetup",
+    "region": "국내",
+    "url": "https://meetup.nhncloud.com/",
+    "topics": ["인프라", "백엔드", "개발 도구"],
+    "feed": "https://meetup.nhncloud.com/rss",
+    "aliases": ["TOAST Meetup"]
+  },
+  {
+    "name": "SK쉴더스 EQST",
+    "region": "국내",
+    "url": "https://www.skshieldus.com/security-insights/reports",
+    "topics": ["보안", "위협 분석"],
+    "aliases": ["SK Shieldus", "이큐스트", "침해 대응"]
+  },
+  {
+    "name": "TOAST UI",
+    "region": "국내",
+    "url": "https://ui.toast.com/posts/ko/",
+    "topics": ["프론트엔드", "개발 도구"],
+    "feed": "https://ui.toast.com/rss.xml",
+    "activity": {
+      "published": "2025-05-29",
+      "checked": "2026-11-25",
+      "post": "https://ui.toast.com/posts/ko_chrome_report_202505"
+    }
+  },
+  {
+    "name": "강남언니",
+    "region": "국내",
+    "url": "https://blog.gangnamunni.com/blog/tech/",
+    "topics": ["백엔드", "인프라", "모바일"],
+    "aliases": ["힐링페이퍼", "Healingpaper"]
+  },
+  {
+    "name": "네이버 D2",
+    "region": "국내",
+    "url": "https://d2.naver.com/helloworld",
+    "topics": ["백엔드", "프론트엔드", "AI"],
+    "feed": "https://d2.naver.com/d2.atom",
+    "aliases": ["NAVER D2"]
+  },
+  {
+    "name": "농심데이타시스템",
+    "region": "국내",
+    "url": "https://tech.cloud.nongshim.co.kr/post/",
+    "topics": ["인프라", "데이터", "AI"],
+    "feed": "https://tech.cloud.nongshim.co.kr/feed/",
+    "aliases": ["NDS"]
+  },
+  {
+    "name": "다나와",
+    "region": "국내",
+    "url": "https://danawalab.github.io/",
+    "topics": ["모바일", "백엔드", "개발 도구"],
+    "feed": "https://danawalab.github.io/feed.xml",
+    "activity": {
+      "published": "2025-08-04",
+      "checked": "2026-11-25",
+      "post": "https://danawalab.github.io/ios/2025/08/04/iOS-cicd-provisioning-profile.html"
+    }
+  },
+  {
+    "name": "당근",
+    "region": "국내",
+    "url": "https://medium.com/daangn",
+    "topics": ["모바일", "인프라", "AI"],
+    "feed": "https://medium.com/feed/daangn",
+    "aliases": ["당근마켓", "Karrot"]
+  },
+  {
+    "name": "데브시스터즈",
+    "region": "국내",
+    "url": "https://tech.devsisters.com/",
+    "topics": ["게임", "인프라", "데이터"],
+    "feed": "https://tech.devsisters.com/rss.xml"
+  },
+  {
+    "name": "데이블",
+    "region": "국내",
+    "url": "https://teamdable.github.io/techblog/",
+    "topics": ["데이터", "AI", "프론트엔드"],
+    "feed": "https://teamdable.github.io/techblog/feed.xml",
+    "aliases": ["Dable"],
+    "activity": {
+      "published": "2024-07-15",
+      "checked": "2026-11-25",
+      "post": "https://teamdable.github.io/techblog/Boosting-Fine-Tuning-of-LM"
+    }
+  },
+  {
+    "name": "데일리호텔",
+    "region": "국내",
+    "url": "https://medium.com/dailyhotel",
+    "topics": ["모바일", "프론트엔드"],
+    "feed": "https://medium.com/feed/dailyhotel",
+    "aliases": ["DailyHotel"],
+    "activity": {
+      "published": "2019-07-29",
+      "checked": "2026-11-25",
+      "post": "https://medium.com/dailyhotel/how-to-use-redux-saga-63a6078c74b3"
+    }
+  },
+  {
+    "name": "라인야후",
+    "region": "국내",
+    "url": "https://techblog.lycorp.co.jp/ko",
+    "topics": ["백엔드", "모바일", "보안"],
+    "feed": "https://techblog.lycorp.co.jp/ko/feed/index.xml",
+    "aliases": ["LINE Engineering", "LY Corporation"]
+  },
+  {
+    "name": "래블업",
+    "region": "국내",
+    "url": "https://www.backend.ai/ko/blog",
+    "topics": ["AI", "인프라", "개발 도구"],
+    "aliases": ["Lablup", "Backend.AI"],
+    "feed": "https://www.backend.ai/ko/rss/blog-rss.xml"
+  },
+  {
+    "name": "레진",
+    "region": "국내",
+    "url": "https://github.com/lezhin/lezhin.github.io/tree/master/_posts",
+    "topics": ["프론트엔드", "모바일", "백엔드"],
+    "aliases": ["Lezhin"],
+    "archive": true,
+    "archiveNote": "팀의 공개 저장소에 글 원문 보관",
+    "activity": {
+      "published": "2020-07-15",
+      "checked": "2026-11-25",
+      "post": "https://github.com/lezhin/lezhin.github.io/blob/master/_posts/2020-07-15-kotlin-webflux.md"
+    }
+  },
+  {
+    "name": "리디",
+    "region": "국내",
+    "url": "https://ridicorp.com/story-category/tech-blog/",
+    "topics": ["모바일", "프론트엔드", "데이터"],
+    "aliases": ["RIDI"],
+    "feed": "https://ridicorp.com/story-category/tech-blog/feed/"
+  },
+  {
+    "name": "리멤버",
+    "region": "국내",
+    "url": "https://tech.remember.co.kr/",
+    "topics": ["백엔드", "모바일", "프론트엔드"],
+    "feed": "https://tech.remember.co.kr/feed",
+    "aliases": ["드라마앤컴퍼니", "Remember"]
+  },
+  {
+    "name": "리벨리온",
+    "region": "국내",
+    "url": "https://rebellions.ai/category/blogs/",
+    "topics": ["반도체", "AI", "인프라"],
+    "aliases": ["Rebellions", "NPU"],
+    "feed": "https://rebellions.ai/category/blogs/feed/"
+  },
+  {
+    "name": "마이리얼트립",
+    "region": "국내",
+    "url": "https://blog.myrealtrip.com/",
+    "topics": ["AI", "개발 도구", "데이터"],
+    "feed": "https://blog.myrealtrip.com/rss/",
+    "aliases": ["MyRealTrip"]
+  },
+  {
+    "name": "매스프레소",
+    "region": "국내",
+    "url": "https://blog.mathpresso.com/",
+    "topics": ["AI", "모바일", "백엔드"],
+    "feed": "https://blog.mathpresso.com/feed",
+    "aliases": ["콴다", "QANDA"],
+    "activity": {
+      "published": "2025-08-07",
+      "checked": "2026-11-25",
+      "post": "https://blog.mathpresso.com/how-was-the-new-qanda-agent-built-73f66934f006"
+    }
+  },
+  {
+    "name": "무신사",
+    "region": "국내",
+    "url": "https://techblog.musinsa.com/",
+    "topics": ["백엔드", "프론트엔드", "인프라"],
+    "feed": "https://techblog.musinsa.com/feed",
+    "aliases": ["Musinsa", "29CM"]
+  },
+  {
+    "name": "뱅크샐러드",
+    "region": "국내",
+    "url": "https://corp.banksalad.com/blog/",
+    "topics": ["모바일", "프론트엔드", "AI"],
+    "feed": "https://corp.banksalad.com/blog/rss.xml"
+  },
+  {
+    "name": "스타일쉐어",
+    "region": "국내",
+    "url": "https://medium.com/styleshare",
+    "topics": ["모바일", "프론트엔드"],
+    "aliases": ["StyleShare"],
+    "activity": {
+      "published": "2021-01-11",
+      "checked": "2026-11-25",
+      "post": "https://medium.com/styleshare/사용자-조사로-첫-화면에-의미있는-개선-만들기-ef823b6c4b6c"
+    }
+  },
+  {
+    "name": "스틸리언",
+    "region": "국내",
+    "url": "https://stealien.com/blog",
+    "topics": ["보안", "위협 분석", "모바일"],
+    "aliases": ["STEALIEN", "UFO"],
+    "feed": "https://stealien.com/blog/feed.xml"
+  },
+  {
+    "name": "스포카",
+    "region": "국내",
+    "url": "https://spoqa.github.io/",
+    "topics": ["모바일", "프론트엔드", "백엔드"],
+    "feed": "https://spoqa.github.io/atom.xml",
+    "aliases": ["Spoqa"]
+  },
+  {
+    "name": "쏘카",
+    "region": "국내",
+    "url": "https://tech.socar.kr/",
+    "topics": ["백엔드", "데이터", "프론트엔드"],
+    "feed": "https://tech.socar.kr/rss.xml",
+    "aliases": ["SOCAR"]
+  },
+  {
+    "name": "안랩 ASEC",
+    "region": "국내",
+    "url": "https://asec.ahnlab.com/ko/",
+    "topics": ["보안", "위협 분석"],
+    "aliases": ["AhnLab", "안랩시큐리티대응센터", "악성코드"],
+    "feed": "https://asec.ahnlab.com/ko/feed/"
+  },
+  {
+    "name": "야놀자",
+    "region": "국내",
+    "url": "https://medium.com/yanoljacloud-tech",
+    "topics": ["백엔드", "인프라", "데이터"],
+    "aliases": ["Yanolja"],
+    "activity": {
+      "published": "2022-09-30",
+      "checked": "2026-11-25",
+      "post": "https://medium.com/yanoljacloud-tech/개인-조직-제품-성장의-선순환을-추구하는-문화-b0594b2f3ae5"
+    }
+  },
+  {
+    "name": "업스테이지",
+    "region": "국내",
+    "url": "https://www.upstage.ai/ko/blog",
+    "topics": ["AI", "데이터"],
+    "aliases": ["Upstage", "Solar", "솔라"]
+  },
+  {
+    "name": "에스투더블유",
+    "region": "국내",
+    "url": "https://www.s2w.inc/ko/resources/blog",
+    "topics": ["보안", "위협 분석", "데이터"],
+    "aliases": ["S2W", "다크웹", "TALON"]
+  },
+  {
+    "name": "여기어때",
+    "region": "국내",
+    "url": "https://techblog.gccompany.co.kr/",
+    "topics": ["백엔드", "데이터", "모바일"],
+    "feed": "https://techblog.gccompany.co.kr/feed"
+  },
+  {
+    "name": "오늘의집",
+    "region": "국내",
+    "url": "https://www.bucketplace.com/post/",
+    "topics": ["데이터", "백엔드", "AI"],
+    "aliases": ["버킷플레이스", "Bucketplace", "Ohouse"]
+  },
+  {
+    "name": "올리브영",
+    "region": "국내",
+    "url": "https://oliveyoung.tech/",
+    "topics": ["프론트엔드", "모바일", "데이터"],
+    "feed": "https://oliveyoung.tech/rss.xml",
+    "aliases": ["CJ Olive Young"]
+  },
+  {
+    "name": "왓챠",
+    "region": "국내",
+    "url": "https://medium.com/watcha",
+    "topics": ["AI", "인프라", "백엔드"],
+    "feed": "https://medium.com/feed/watcha",
+    "aliases": ["WATCHA"]
+  },
+  {
+    "name": "요기요",
+    "region": "국내",
+    "url": "https://techblog.yogiyo.co.kr/",
+    "topics": ["백엔드", "프론트엔드", "모바일"],
+    "feed": "https://techblog.yogiyo.co.kr/feed",
+    "aliases": ["YOGIYO"]
+  },
+  {
+    "name": "우아한형제들",
+    "region": "국내",
+    "url": "https://techblog.woowahan.com/",
+    "topics": ["백엔드", "데이터", "인프라"],
+    "feed": "https://techblog.woowahan.com/feed/",
+    "aliases": ["배달의민족", "배민"]
+  },
+  {
+    "name": "원티드랩",
+    "region": "국내",
+    "url": "https://medium.com/wantedjobs",
+    "topics": ["AI", "모바일", "프론트엔드"],
+    "feed": "https://medium.com/feed/wantedjobs",
+    "aliases": ["원티드", "Wanted"]
+  },
+  {
+    "name": "이스트소프트",
+    "region": "국내",
+    "url": "https://blog.est.ai/",
+    "topics": ["AI", "데이터"],
+    "feed": "https://blog.est.ai/feed.xml",
+    "aliases": ["ESTsoft"],
+    "activity": {
+      "published": "2022-06-10",
+      "checked": "2026-11-25",
+      "post": "https://blog.est.ai/2022/06/인공지능-음성-생성-연구-음성-분류-솔루션/"
+    }
+  },
+  {
+    "name": "이스트시큐리티",
+    "region": "국내",
+    "url": "https://blog.alyac.co.kr/",
+    "topics": ["보안", "위협 분석"],
+    "aliases": ["ESTsecurity", "ESRC", "알약"],
+    "feed": "https://blog.alyac.co.kr/rss"
+  },
+  {
+    "name": "인프랩",
+    "region": "국내",
+    "url": "https://tech.inflab.com/",
+    "topics": ["백엔드", "프론트엔드", "인프라"],
+    "feed": "https://tech.inflab.com/rss.xml",
+    "aliases": ["인프런"]
+  },
+  {
+    "name": "직방",
+    "region": "국내",
+    "url": "https://medium.com/zigbang",
+    "topics": ["모바일", "프론트엔드", "백엔드"],
+    "aliases": ["Zigbang"],
+    "activity": {
+      "published": "2023-12-18",
+      "checked": "2026-11-25",
+      "post": "https://medium.com/zigbang/bit-binary-digit-byte-의-고찰-ebefe5afb8d3"
+    }
+  },
+  {
+    "name": "채널톡",
+    "region": "국내",
+    "url": "https://tech.channel.io/kr",
+    "topics": ["AI", "백엔드", "프론트엔드"],
+    "feed": "https://tech.channel.io/kr/rss.xml",
+    "aliases": ["Channel Talk"]
+  },
+  {
+    "name": "카카오",
+    "region": "국내",
+    "url": "https://tech.kakao.com/blog",
+    "topics": ["백엔드", "인프라", "AI"],
+    "feed": "https://tech.kakao.com/feed"
+  },
+  {
+    "name": "카카오뱅크",
+    "region": "국내",
+    "url": "https://tech.kakaobank.com/",
+    "topics": ["모바일", "백엔드", "AI"],
+    "feed": "https://tech.kakaobank.com/index.xml",
+    "aliases": ["KakaoBank"]
+  },
+  {
+    "name": "카카오스타일",
+    "region": "국내",
+    "url": "https://devblog.kakaostyle.com/ko/",
+    "topics": ["백엔드", "프론트엔드", "모바일"],
+    "feed": "https://devblog.kakaostyle.com/ko/index.xml",
+    "aliases": ["지그재그"]
+  },
+  {
+    "name": "카카오엔터프라이즈",
+    "region": "국내",
+    "url": "https://tech.kakaoenterprise.com/",
+    "topics": ["AI", "인프라", "데이터"],
+    "feed": "https://tech.kakaoenterprise.com/rss",
+    "activity": {
+      "published": "2023-05-19",
+      "checked": "2026-11-25",
+      "post": "https://tech.kakaoenterprise.com/194"
+    }
+  },
+  {
+    "name": "카카오페이",
+    "region": "국내",
+    "url": "https://tech.kakaopay.com/",
+    "topics": ["백엔드", "프론트엔드", "인프라"]
+  },
+  {
+    "name": "컬리",
+    "region": "국내",
+    "url": "https://helloworld.kurly.com/",
+    "topics": ["데이터", "백엔드", "AI"],
+    "feed": "https://helloworld.kurly.com/rss.xml",
+    "aliases": ["마켓컬리", "Kurly"]
+  },
+  {
+    "name": "쿠팡",
+    "region": "국내",
+    "url": "https://medium.com/coupang-engineering",
+    "topics": ["백엔드", "데이터", "인프라"],
+    "aliases": ["Coupang"],
+    "activity": {
+      "published": "2024-10-15",
+      "checked": "2026-11-25",
+      "post": "https://medium.com/coupang-engineering/accelerating-coupangs-ai-journey-with-llms-2817d55004d3"
+    }
+  },
+  {
+    "name": "크래프톤 AI",
+    "region": "국내",
+    "url": "https://www.krafton.ai/blog/",
+    "topics": ["AI", "게임", "로보틱스"],
+    "aliases": ["KRAFTON", "크래프톤"]
+  },
+  {
+    "name": "클래스101",
+    "region": "국내",
+    "url": "https://medium.com/class101",
+    "topics": ["프론트엔드", "백엔드", "개발 도구"],
+    "feed": "https://medium.com/feed/class101",
+    "aliases": ["CLASS101"],
+    "activity": {
+      "published": "2023-05-29",
+      "checked": "2026-11-25",
+      "post": "https://medium.com/class101/101-sherpa-2023년-4월-호-f4d211743ffd"
+    }
+  },
+  {
+    "name": "타다",
+    "region": "국내",
+    "url": "https://blog-tech.tadatada.com/",
+    "topics": ["모바일", "백엔드", "데이터"],
+    "aliases": ["VCNC"]
+  },
+  {
+    "name": "토스",
+    "region": "국내",
+    "url": "https://toss.tech/",
+    "topics": ["프론트엔드", "백엔드", "모바일"],
+    "feed": "https://toss.tech/rss.xml",
+    "aliases": ["Toss"]
+  },
+  {
+    "name": "티오리",
+    "region": "국내",
+    "url": "https://theori.io/ko/blog",
+    "topics": ["보안", "위협 분석", "AI"],
+    "aliases": ["Theori", "티오리한국"],
+    "feed": "https://theori.io/ko/blog/rss"
+  },
+  {
+    "name": "퓨리오사AI",
+    "region": "국내",
+    "url": "https://furiosa.ai/blog",
+    "topics": ["반도체", "AI", "인프라"],
+    "aliases": ["FuriosaAI", "퓨리오사에이아이", "RNGD"],
+    "feed": "https://furiosa.ai/blog/rss.xml"
+  },
+  {
+    "name": "플라네타리움",
+    "region": "국내",
+    "url": "https://snack.planetarium.dev/kor/",
+    "topics": ["게임", "백엔드", "개발 도구"],
+    "feed": "https://snack.planetarium.dev/kor/index.xml",
+    "aliases": ["Planetarium"],
+    "activity": {
+      "published": "2025-03-20",
+      "checked": "2026-11-25",
+      "post": "https://snack.planetarium.dev/kor/2025/03/asset-load-3/"
+    }
+  },
+  {
+    "name": "하이퍼커넥트",
+    "region": "국내",
+    "url": "https://hyperconnect.github.io/",
+    "topics": ["AI", "인프라", "모바일"],
+    "feed": "https://hyperconnect.github.io/feed.xml",
+    "aliases": ["Hyperconnect"]
+  },
+  {
+    "name": "휴먼스케이프",
+    "region": "국내",
+    "url": "https://medium.com/humanscape-tech",
+    "topics": ["백엔드", "모바일", "인프라"],
+    "feed": "https://medium.com/feed/humanscape-tech",
+    "aliases": ["Humanscape"],
+    "activity": {
+      "published": "2023-06-28",
+      "checked": "2026-11-25",
+      "post": "https://medium.com/humanscape-tech/koa-project-nestjs-적용기-레거시-개선을-통한-코드-구조-개선-fab40bf987f4"
+    }
+  },
+  {
+    "name": "1Password",
+    "region": "해외",
+    "url": "https://1password.com/blog",
+    "topics": ["보안", "개발 도구"],
+    "aliases": ["원패스워드", "인증", "패스키"],
+    "feed": "https://1password.com/blog/index.xml"
+  },
+  {
+    "name": "Airbnb",
+    "region": "해외",
+    "url": "https://airbnb.tech/",
+    "topics": ["데이터", "인프라", "AI"],
+    "aliases": ["에어비앤비"],
+    "feed": "https://airbnb.tech/feed/"
+  },
+  {
+    "name": "Alibaba Qwen",
+    "region": "해외",
+    "url": "https://qwen.ai/blog",
+    "topics": ["AI", "데이터"],
+    "aliases": ["알리바바", "큐원", "통이첸원"]
+  },
+  {
+    "name": "Amazon Appstore",
+    "region": "해외",
+    "url": "https://developer.amazon.com/apps-and-games/blogs",
+    "topics": ["모바일", "게임", "개발 도구"]
+  },
+  {
+    "name": "Anthropic",
+    "region": "해외",
+    "url": "https://www.anthropic.com/engineering",
+    "topics": ["AI", "개발 도구", "인프라"],
+    "aliases": ["앤트로픽", "Anthropic Engineering", "앤스로픽", "안트로픽", "Claude", "클로드", "Antropic", "Claude Code"]
+  },
+  {
+    "name": "AWS Architecture",
+    "region": "해외",
+    "url": "https://aws.amazon.com/blogs/architecture/",
+    "topics": ["인프라", "백엔드", "보안"],
+    "feed": "https://aws.amazon.com/blogs/architecture/feed/"
+  },
+  {
+    "name": "Calif",
+    "region": "해외",
+    "url": "https://calif.io/research",
+    "topics": ["보안", "위협 분석"],
+    "aliases": ["칼리프", "캘리프", "Calif Newsletter"],
+    "feed": "https://blog.calif.io/feed",
+    "feedScope": "all"
+  },
+  {
+    "name": "Canva",
+    "region": "해외",
+    "url": "https://www.canva.dev/blog/engineering/",
+    "topics": ["프론트엔드", "백엔드", "인프라"],
+    "aliases": ["캔바"],
+    "feed": "https://www.canva.dev/blog/engineering/feed.xml"
+  },
+  {
+    "name": "Cerebras",
+    "region": "해외",
+    "url": "https://www.cerebras.ai/blog",
+    "topics": ["반도체", "AI", "인프라"],
+    "aliases": ["세레브라스", "웨이퍼 스케일"]
+  },
+  {
+    "name": "Chainguard",
+    "region": "해외",
+    "url": "https://www.chainguard.dev/unchained/category/engineering",
+    "topics": ["보안", "공급망 보안", "인프라"],
+    "aliases": ["체인가드", "컨테이너"],
+    "feed": "https://www.chainguard.dev/api/rss",
+    "feedScope": "all"
+  },
+  {
+    "name": "Check Point Research",
+    "region": "해외",
+    "url": "https://research.checkpoint.com/",
+    "topics": ["보안", "위협 분석"],
+    "aliases": ["체크포인트", "CPR"],
+    "feed": "https://research.checkpoint.com/feed/"
+  },
+  {
+    "name": "Cisco Talos",
+    "region": "해외",
+    "url": "https://blog.talosintelligence.com/",
+    "topics": ["보안", "위협 분석", "네트워크"],
+    "aliases": ["시스코", "탈로스"],
+    "feed": "https://blog.talosintelligence.com/rss/"
+  },
+  {
+    "name": "Cloudflare",
+    "region": "해외",
+    "url": "https://blog.cloudflare.com/",
+    "topics": ["네트워크", "인프라", "보안"],
+    "feed": "https://blog.cloudflare.com/rss/",
+    "aliases": ["클라우드플레어"]
+  },
+  {
+    "name": "Cognition",
+    "region": "해외",
+    "url": "https://cognition.com/blog",
+    "topics": ["AI", "개발 도구"],
+    "aliases": ["코그니션", "Devin", "데빈"]
+  },
+  {
+    "name": "Cohere Labs",
+    "region": "해외",
+    "url": "https://cohere.com/research",
+    "topics": ["AI", "데이터"],
+    "aliases": ["코히어", "Cohere For AI", "Command"]
+  },
+  {
+    "name": "CoreWeave",
+    "region": "해외",
+    "url": "https://www.coreweave.com/resources/blogs",
+    "topics": ["AI", "인프라", "네트워크"],
+    "aliases": ["코어위브", "GPU"],
+    "feed": "https://www.coreweave.com/blog/rss.xml"
+  },
+  {
+    "name": "CrowdStrike",
+    "region": "해외",
+    "url": "https://www.crowdstrike.com/en-us/blog/",
+    "topics": ["보안", "위협 분석", "클라우드 보안"],
+    "aliases": ["크라우드스트라이크", "Falcon"],
+    "feed": "https://www.crowdstrike.com/en-us/blog/feed"
+  },
+  {
+    "name": "Cursor",
+    "region": "해외",
+    "url": "https://cursor.com/blog",
+    "topics": ["AI", "개발 도구"],
+    "aliases": ["커서", "Anysphere"]
+  },
+  {
+    "name": "Databricks",
+    "region": "해외",
+    "url": "https://www.databricks.com/blog/category/engineering",
+    "topics": ["데이터", "AI", "인프라"],
+    "aliases": ["데이터브릭스", "Apache Spark"],
+    "feed": "https://www.databricks.com/feed",
+    "feedScope": "all"
+  },
+  {
+    "name": "Datadog",
+    "region": "해외",
+    "url": "https://www.datadoghq.com/blog/engineering/",
+    "topics": ["인프라", "데이터", "백엔드"],
+    "aliases": ["데이터독", "관측성", "Observability"],
+    "feed": "https://www.datadoghq.com/blog/engineering/index.xml"
+  },
+  {
+    "name": "DeepSeek",
+    "region": "해외",
+    "url": "https://www.deepseek.com/en/news/",
+    "topics": ["AI", "인프라"],
+    "aliases": ["딥시크", "딥시크AI"]
+  },
+  {
+    "name": "Discord",
+    "region": "해외",
+    "url": "https://discord.com/category/engineering",
+    "topics": ["백엔드", "인프라", "네트워크"],
+    "aliases": ["디스코드"],
+    "feed": "https://discord.com/blog/rss.xml",
+    "feedScope": "all"
+  },
+  {
+    "name": "DoorDash",
+    "region": "해외",
+    "url": "https://careersatdoordash.com/engineering-blog/",
+    "topics": ["백엔드", "데이터", "AI"],
+    "aliases": ["도어대시", "도어대쉬"]
+  },
+  {
+    "name": "Dropbox",
+    "region": "해외",
+    "url": "https://dropbox.tech/",
+    "topics": ["인프라", "백엔드", "AI"],
+    "feed": "https://dropbox.tech/feed"
+  },
+  {
+    "name": "eBay",
+    "region": "해외",
+    "url": "https://innovation.ebayinc.com/stories/",
+    "topics": ["데이터", "백엔드", "AI"],
+    "feed": "https://innovation.ebayinc.com/stories/rss/"
+  },
+  {
+    "name": "Elastic Security Labs",
+    "region": "해외",
+    "url": "https://www.elastic.co/security-labs",
+    "topics": ["보안", "위협 분석", "데이터"],
+    "aliases": ["엘라스틱", "Elastic Security"],
+    "feed": "https://www.elastic.co/security-labs/rss/feed.xml"
+  },
+  {
+    "name": "ElevenLabs",
+    "region": "해외",
+    "url": "https://elevenlabs.io/blog/category/research",
+    "topics": ["AI", "데이터"],
+    "aliases": ["일레븐랩스", "음성 합성", "TTS"],
+    "feed": "https://elevenlabs.io/blog/rss.xml",
+    "feedScope": "all"
+  },
+  {
+    "name": "ESET",
+    "region": "해외",
+    "url": "https://www.welivesecurity.com/en/",
+    "topics": ["보안", "위협 분석"],
+    "aliases": ["이셋", "WeLiveSecurity"],
+    "feed": "https://www.welivesecurity.com/en/rss/feed/"
+  },
+  {
+    "name": "Figma",
+    "region": "해외",
+    "url": "https://www.figma.com/blog/engineering/",
+    "topics": ["프론트엔드", "개발 도구", "인프라"],
+    "aliases": ["피그마"],
+    "feed": "https://www.figma.com/blog/feed/atom.xml",
+    "feedScope": "all"
+  },
+  {
+    "name": "Fireworks AI",
+    "region": "해외",
+    "url": "https://fireworks.ai/blog",
+    "topics": ["AI", "인프라"],
+    "aliases": ["파이어웍스", "모델 추론"]
+  },
+  {
+    "name": "GitHub",
+    "region": "해외",
+    "url": "https://github.blog/engineering/",
+    "topics": ["개발 도구", "인프라", "백엔드"],
+    "feed": "https://github.blog/engineering/feed/"
+  },
+  {
+    "name": "GitHub Security",
+    "region": "해외",
+    "url": "https://github.blog/security/",
+    "topics": ["보안", "공급망 보안", "개발 도구"],
+    "aliases": ["깃허브 보안", "GitHub 보안"],
+    "feed": "https://github.blog/security/feed/"
+  },
+  {
+    "name": "Google DeepMind",
+    "region": "해외",
+    "url": "https://deepmind.google/blog/",
+    "topics": ["AI", "로보틱스"],
+    "aliases": ["딥마인드", "구글 딥마인드", "Gemini", "제미나이", "AlphaFold"],
+    "feed": "https://deepmind.google/blog/rss.xml"
+  },
+  {
+    "name": "Google Developers",
+    "region": "해외",
+    "url": "https://developers.googleblog.com/en/",
+    "topics": ["AI", "모바일", "개발 도구"],
+    "feed": "https://developers.googleblog.com/feeds/posts/default/"
+  },
+  {
+    "name": "Google Play",
+    "region": "해외",
+    "url": "https://developer.android.com/blog/topics/google-play",
+    "topics": ["모바일", "게임", "보안"],
+    "feed": "https://developer.android.com/static/blog/atom.xml",
+    "feedScope": "all"
+  },
+  {
+    "name": "Google Project Zero",
+    "region": "해외",
+    "url": "https://projectzero.google/",
+    "topics": ["보안", "위협 분석"],
+    "aliases": ["구글 프로젝트 제로", "프로젝트제로", "제로데이", "취약점 연구"],
+    "feed": "https://projectzero.google/feed.xml"
+  },
+  {
+    "name": "Google Security Blog",
+    "region": "해외",
+    "url": "https://blog.google/security/",
+    "topics": ["보안", "개발 도구"],
+    "aliases": ["구글 보안", "Google Online Security"],
+    "feed": "https://blog.google/security/rss/"
+  },
+  {
+    "name": "Google Threat Intelligence",
+    "region": "해외",
+    "url": "https://cloud.google.com/blog/topics/threat-intelligence",
+    "topics": ["보안", "위협 분석", "클라우드 보안"],
+    "aliases": ["Mandiant", "맨디언트", "GTIG", "Google Cloud"],
+    "feed": "https://cloudblog.withgoogle.com/topics/threat-intelligence/rss/"
+  },
+  {
+    "name": "Grab",
+    "region": "해외",
+    "url": "https://engineering.grab.com/",
+    "topics": ["데이터", "모바일", "AI"],
+    "feed": "https://engineering.grab.com/feed.xml"
+  },
+  {
+    "name": "Groq",
+    "region": "해외",
+    "url": "https://groq.com/blog",
+    "topics": ["반도체", "AI", "인프라"],
+    "aliases": ["그로크", "GroqCloud", "LPU"]
+  },
+  {
+    "name": "Hugging Face",
+    "region": "해외",
+    "url": "https://huggingface.co/blog",
+    "topics": ["AI", "데이터", "개발 도구"],
+    "aliases": ["허깅페이스", "허깅 페이스", "Transformers"],
+    "feed": "https://huggingface.co/blog/feed.xml"
+  },
+  {
+    "name": "Instagram",
+    "region": "해외",
+    "url": "https://engineering.fb.com/tag/instagram/",
+    "topics": ["모바일", "백엔드", "인프라"],
+    "feed": "https://engineering.fb.com/tag/instagram/feed/"
+  },
+  {
+    "name": "Kaspersky Securelist",
+    "region": "해외",
+    "url": "https://securelist.com/",
+    "topics": ["보안", "위협 분석"],
+    "aliases": ["카스퍼스키", "시큐어리스트"],
+    "feed": "https://securelist.com/feed/"
+  },
+  {
+    "name": "Linear",
+    "region": "해외",
+    "url": "https://linear.app/now",
+    "topics": ["개발 도구", "프론트엔드"],
+    "aliases": ["리니어"],
+    "feed": "https://linear.app/rss/now.xml"
+  },
+  {
+    "name": "LinkedIn",
+    "region": "해외",
+    "url": "https://www.linkedin.com/blog/engineering",
+    "topics": ["데이터", "AI", "인프라"]
+  },
+  {
+    "name": "Meta",
+    "region": "해외",
+    "url": "https://engineering.fb.com/",
+    "topics": ["AI", "인프라", "네트워크"],
+    "feed": "https://engineering.fb.com/feed/",
+    "aliases": ["Facebook", "메타", "페이스북", "Llama", "라마"]
+  },
+  {
+    "name": "Microsoft",
+    "region": "해외",
+    "url": "https://devblogs.microsoft.com/",
+    "topics": ["개발 도구", "AI", "인프라"],
+    "feed": "https://devblogs.microsoft.com/feed/"
+  },
+  {
+    "name": "Microsoft Security",
+    "region": "해외",
+    "url": "https://www.microsoft.com/en-us/security/blog/",
+    "topics": ["보안", "위협 분석", "클라우드 보안"],
+    "aliases": ["마이크로소프트 보안", "Microsoft Threat Intelligence", "Defender"],
+    "feed": "https://www.microsoft.com/en-us/security/blog/feed/"
+  },
+  {
+    "name": "Mistral AI",
+    "region": "해외",
+    "url": "https://mistral.ai/research/",
+    "topics": ["AI", "개발 도구"],
+    "aliases": ["미스트랄", "르샤", "Le Chat"],
+    "feed": "https://mistral.ai/news/rss",
+    "feedScope": "all"
+  },
+  {
+    "name": "Modal",
+    "region": "해외",
+    "url": "https://modal.com/blog",
+    "topics": ["AI", "인프라", "개발 도구"],
+    "aliases": ["모달", "서버리스"],
+    "feed": "https://modal.com/blog/atom.xml"
+  },
+  {
+    "name": "Moonshot AI",
+    "region": "해외",
+    "url": "https://www.kimi.com/en/blog/",
+    "topics": ["AI", "개발 도구"],
+    "aliases": ["문샷AI", "Kimi", "키미"]
+  },
+  {
+    "name": "Netflix",
+    "region": "해외",
+    "url": "https://netflixtechblog.com/",
+    "topics": ["데이터", "인프라", "네트워크"],
+    "feed": "https://netflixtechblog.com/feed"
+  },
+  {
+    "name": "Notion",
+    "region": "해외",
+    "url": "https://www.notion.com/blog/topic/tech",
+    "topics": ["백엔드", "데이터", "인프라"],
+    "aliases": ["노션"]
+  },
+  {
+    "name": "NVIDIA",
+    "region": "해외",
+    "url": "https://developer.nvidia.com/blog/",
+    "topics": ["AI", "반도체", "로보틱스"],
+    "aliases": ["엔비디아", "CUDA", "GPU"],
+    "feed": "https://developer.nvidia.com/blog/feed/"
+  },
+  {
+    "name": "OpenAI",
+    "region": "해외",
+    "url": "https://openai.com/news/engineering/",
+    "topics": ["AI", "인프라", "개발 도구"],
+    "feed": "https://openai.com/news/engineering/rss.xml",
+    "aliases": ["오픈AI", "오픈에이아이", "ChatGPT", "챗GPT", "챗지피티", "Codex", "코덱스"]
+  },
+  {
+    "name": "Palo Alto Networks Unit 42",
+    "region": "해외",
+    "url": "https://unit42.paloaltonetworks.com/",
+    "topics": ["보안", "위협 분석", "클라우드 보안"],
+    "aliases": ["팔로알토 네트웍스", "유닛42", "Unit42"],
+    "feed": "https://unit42.paloaltonetworks.com/feed/"
+  },
+  {
+    "name": "PayPal",
+    "region": "해외",
+    "url": "https://developer.paypal.com/community/blog/",
+    "topics": ["백엔드", "프론트엔드", "개발 도구"]
+  },
+  {
+    "name": "Perplexity",
+    "region": "해외",
+    "url": "https://research.perplexity.ai/",
+    "topics": ["AI", "데이터"],
+    "aliases": ["퍼플렉시티", "Perplexity Frontier Research", "검색"]
+  },
+  {
+    "name": "Pinterest",
+    "region": "해외",
+    "url": "https://medium.com/pinterest-engineering",
+    "topics": ["데이터", "AI", "인프라"],
+    "aliases": ["핀터레스트"],
+    "feed": "https://medium.com/feed/pinterest-engineering"
+  },
+  {
+    "name": "Riot Games",
+    "region": "해외",
+    "url": "https://www.riotgames.com/en/news?q=tech%20blog",
+    "topics": ["게임", "네트워크", "백엔드"],
+    "activity": {
+      "published": "2025-10-16",
+      "checked": "2026-11-25",
+      "post": "https://2xko.riotgames.com/en-us/news/dev/how-2xko-handles-online-play/"
+    }
+  },
+  {
+    "name": "Runway",
+    "region": "해외",
+    "url": "https://runway.com/research",
+    "topics": ["AI", "로보틱스"],
+    "aliases": ["런웨이", "RunwayML", "영상 생성"]
+  },
+  {
+    "name": "Sendbird",
+    "region": "해외",
+    "url": "https://sendbird.com/blog/category/engineering",
+    "topics": ["모바일", "백엔드", "개발 도구"],
+    "aliases": ["센드버드", "샌드버드"]
+  },
+  {
+    "name": "SentinelOne",
+    "region": "해외",
+    "url": "https://www.sentinelone.com/labs/",
+    "topics": ["보안", "위협 분석"],
+    "aliases": ["센티넬원", "SentinelLABS"],
+    "feed": "https://www.sentinelone.com/labs/feed/"
+  },
+  {
+    "name": "Shopify",
+    "region": "해외",
+    "url": "https://shopify.engineering/",
+    "topics": ["백엔드", "인프라", "모바일"],
+    "feed": "https://shopify.engineering/blog.atom",
+    "aliases": ["쇼피파이"]
+  },
+  {
+    "name": "Slack",
+    "region": "해외",
+    "url": "https://slack.engineering/",
+    "topics": ["백엔드", "모바일", "인프라"],
+    "feed": "https://slack.engineering/feed/"
+  },
+  {
+    "name": "Snowflake",
+    "region": "해외",
+    "url": "https://www.snowflake.com/en/blog/engineering/",
+    "topics": ["데이터", "인프라", "AI"],
+    "aliases": ["스노우플레이크"]
+  },
+  {
+    "name": "Snyk",
+    "region": "해외",
+    "url": "https://snyk.io/blog/",
+    "topics": ["보안", "공급망 보안", "개발 도구"],
+    "aliases": ["스닉", "오픈소스 보안"],
+    "feed": "https://snyk.io/blog/feed/"
+  },
+  {
+    "name": "Socket",
+    "region": "해외",
+    "url": "https://socket.dev/blog",
+    "topics": ["보안", "공급망 보안", "개발 도구"],
+    "aliases": ["소켓", "오픈소스 보안"],
+    "feed": "https://socket.dev/api/blog/feed.atom"
+  },
+  {
+    "name": "Sophos",
+    "region": "해외",
+    "url": "https://www.sophos.com/en-us/blog/category/threat-research",
+    "topics": ["보안", "위협 분석"],
+    "aliases": ["소포스", "Sophos X-Ops"],
+    "feed": "https://www.sophos.com/en-us/category/threat-research/feed"
+  },
+  {
+    "name": "Spotify",
+    "region": "해외",
+    "url": "https://engineering.atspotify.com/",
+    "topics": ["AI", "데이터", "인프라"],
+    "feed": "https://engineering.atspotify.com/feed",
+    "aliases": ["스포티파이"]
+  },
+  {
+    "name": "Stripe",
+    "region": "해외",
+    "url": "https://stripe.dev/blog/topic/engineering",
+    "topics": ["백엔드", "인프라", "개발 도구"],
+    "feed": "https://stripe.dev/blog/feed",
+    "feedScope": "all"
+  },
+  {
+    "name": "Supabase",
+    "region": "해외",
+    "url": "https://supabase.com/blog",
+    "topics": ["데이터", "백엔드", "개발 도구"],
+    "aliases": ["수파베이스", "슈퍼베이스", "Postgres"],
+    "feed": "https://supabase.com/rss.xml"
+  },
+  {
+    "name": "Tailscale",
+    "region": "해외",
+    "url": "https://tailscale.com/blog",
+    "topics": ["네트워크", "보안", "인프라"],
+    "aliases": ["테일스케일", "WireGuard"],
+    "feed": "https://tailscale.com/blog/index.xml"
+  },
+  {
+    "name": "Together AI",
+    "region": "해외",
+    "url": "https://www.together.ai/blog",
+    "topics": ["AI", "인프라"],
+    "aliases": ["투게더AI", "모델 추론"],
+    "feed": "https://www.together.ai/blog/rss.xml"
+  },
+  {
+    "name": "Trail of Bits",
+    "region": "해외",
+    "url": "https://blog.trailofbits.com/",
+    "topics": ["보안", "공급망 보안", "개발 도구"],
+    "aliases": ["트레일 오브 비츠", "암호학"],
+    "feed": "https://blog.trailofbits.com/index.xml"
+  },
+  {
+    "name": "Trend Micro Research",
+    "region": "해외",
+    "url": "https://www.trendmicro.com/en_us/research.html",
+    "topics": ["보안", "위협 분석"],
+    "aliases": ["트렌드마이크로", "TrendAI"]
+  },
+  {
+    "name": "trivago",
+    "region": "해외",
+    "url": "https://tech.trivago.com/",
+    "topics": ["백엔드", "데이터", "인프라"],
+    "feed": "https://tech.trivago.com/rss.xml"
+  },
+  {
+    "name": "Uber",
+    "region": "해외",
+    "url": "https://www.uber.com/us/en/blog/engineering/",
+    "topics": ["백엔드", "데이터", "인프라"],
+    "aliases": ["우버"]
+  },
+  {
+    "name": "Vercel",
+    "region": "해외",
+    "url": "https://vercel.com/blog/category/engineering",
+    "topics": ["프론트엔드", "인프라", "개발 도구"],
+    "aliases": ["버셀", "Next.js"],
+    "feed": "https://vercel.com/atom",
+    "feedScope": "all"
+  },
+  {
+    "name": "Wiz",
+    "region": "해외",
+    "url": "https://www.wiz.io/blog/tag/research",
+    "topics": ["보안", "클라우드 보안", "위협 분석"],
+    "aliases": ["위즈", "Wiz Research"],
+    "feed": "https://www.wiz.io/feed/rss.xml",
+    "feedScope": "all"
+  },
+  {
+    "name": "X Engineering",
+    "region": "해외",
+    "url": "https://blog.x.com/en/engineering",
+    "topics": ["데이터", "백엔드", "인프라"],
+    "aliases": ["Twitter"]
+  },
+  {
+    "name": "xAI",
+    "region": "해외",
+    "url": "https://x.ai/news",
+    "topics": ["AI", "개발 도구"],
+    "aliases": ["Grok", "그록", "엑스에이아이", "SpaceXSI"]
+  }
+]

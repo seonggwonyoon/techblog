@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="description" content="국내외 기술 블로그를 회사와 주제로 찾아보고 RSS 리더로 구독하세요.">
+  <title>techblog · 기술 블로그 모음</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="directory.js"></script>
+</head>
+<body>
+  <svg class="icon-defs" width="0" height="0" aria-hidden="true" focusable="false">
+    <defs>
+      <symbol id="icon-rss" viewBox="0 0 24 24">
+        <circle cx="5" cy="19" r="1.5" fill="currentColor" stroke="none"/>
+        <path d="M4 11a9 9 0 0 1 9 9M4 5a15 15 0 0 1 15 15"/>
+      </symbol>
+      <symbol id="icon-chevron" viewBox="0 0 24 24">
+        <path d="m6 9 6 6 6-6"/>
+      </symbol>
+    </defs>
+  </svg>
+  <a class="skip-link" href="#directory">블로그 목록으로 건너뛰기</a>
+  <header id="top" class="masthead" tabindex="-1">
+    <div class="frame masthead-inner">
+      <a class="wordmark" href="./index.html" aria-label="techblog 첫 화면">
+        <span class="book-mark" aria-hidden="true"><i></i><i></i><i></i></span>techblog
+      </a>
+      <a class="star-link" href="https://github.com/seonggwonyoon/techblog" target="_blank" rel="noopener noreferrer"
+         aria-label="새 탭에서 GitHub 저장소를 열어 Star 주기">
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 2.8 5.8 6.4.9-4.6 4.5 1.1 6.3-5.7-3-5.7 3 1.1-6.3-4.6-4.5 6.4-.9Z"/></svg>
+        GitHub에서 Star
+      </a>
+    </div>
+  </header>
+  <main class="frame">
+    <section class="intro" aria-labelledby="page-title">
+      <div class="intro-copy">
+        <h1 id="page-title">기술 블로그 모음</h1>
+        <p>국내외 개발팀이 기록한 설계와 운영 경험</p>
+      </div>
+      <section class="subscription" aria-labelledby="subscription-title">
+        <div>
+          <h2 id="subscription-title">RSS 리더로 가져오기</h2>
+          <p id="feed-summary">현재 목록의 피드 ${feed_count}개</p>
+        </div>
+        <a id="download-feeds" href="feeds.opml" download="techblog-feeds.opml" aria-describedby="feed-summary">
+          OPML 내려받기
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m-4-4 4 4 4-4M5 16v4h14v-4"/></svg>
+        </a>
+      </section>
+    </section>
+    <section id="directory" class="directory" aria-label="블로그 디렉터리" tabindex="-1">
+      <form id="filters" class="interactive" role="search">
+        <label class="search-box" for="query">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+            <circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4.5 4.5"/>
+          </svg>
+          <span class="sr-only">회사명 또는 주제 검색</span>
+          <input id="query" type="search" placeholder="회사명 또는 주제 검색" autocomplete="off" enterkeyhint="search">
+        </label>
+      </form>
+      <details class="topic-picker interactive" open>
+        <summary>
+          주제 <span id="current-topic">전체 주제</span>
+          <svg class="icon chevron" aria-hidden="true"><use href="#icon-chevron"/></svg>
+        </summary>
+        <fieldset class="topic-list">
+          <legend class="sr-only">주제 선택</legend>
+          ${topic_controls}
+        </fieldset>
+      </details>
+      <div class="catalog">
+        <div class="list-tools">
+          <fieldset class="scopes interactive">
+            <legend class="sr-only">목록 범위</legend>
+            <label><input form="filters" type="radio" name="scope" value="all" checked><span>전체</span></label>
+            <label><input form="filters" type="radio" name="scope" value="국내"><span>국내</span></label>
+            <label><input form="filters" type="radio" name="scope" value="해외"><span>해외</span></label>
+            <label><input form="filters" type="radio" name="scope" value="quiet"><span>1년 새 글 없음</span></label>
+            <label><input form="filters" type="radio" name="scope" value="archive"><span>아카이브</span></label>
+          </fieldset>
+          <label class="feed-filter interactive">
+            <input form="filters" type="checkbox" id="with-feed">RSS만 보기
+          </label>
+          <div class="result-line">
+            <div class="result-summary">
+              <h2 id="result-count" aria-live="polite" aria-atomic="true">블로그 ${blog_count}곳</h2>
+              <button type="button" id="reset" hidden>필터 초기화</button>
+            </div>
+            <span class="column-label" aria-hidden="true">주제</span>
+            <span class="column-label" aria-hidden="true">구독</span>
+          </div>
+        </div>
+        <ul id="blog-list" class="blog-list">
+          ${entries}
+        </ul>
+        ${folded_groups}
+        <div class="empty-state" hidden>
+          <p>조건에 맞는 블로그가 없습니다.</p>
+          <button type="button" id="show-all">전체 목록 보기</button>
+        </div>
+      </div>
+    </section>
+  </main>
+  <a class="back-to-top" href="#top" aria-label="맨 위로 가기">
+    <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h14M12 20V8m-5 5 5-5 5 5"/></svg>
+    <span>맨 위로</span>
+  </a>
+  <footer class="frame footer">
+    <span class="footer-brand">techblog</span>
+    <a href="https://github.com/seonggwonyoon/techblog/issues/new">
+      블로그 추가·수정 제안
+      <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 18 18 6M7 6h11v11"/></svg>
+    </a>
+  </footer>
+</body>
+</html>

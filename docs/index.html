@@ -1,0 +1,1309 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="description" content="국내외 기술 블로그를 회사와 주제로 찾아보고 RSS 리더로 구독하세요.">
+  <title>techblog · 기술 블로그 모음</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="directory.js"></script>
+</head>
+<body>
+  <svg class="icon-defs" width="0" height="0" aria-hidden="true" focusable="false">
+    <defs>
+      <symbol id="icon-rss" viewBox="0 0 24 24">
+        <circle cx="5" cy="19" r="1.5" fill="currentColor" stroke="none"/>
+        <path d="M4 11a9 9 0 0 1 9 9M4 5a15 15 0 0 1 15 15"/>
+      </symbol>
+      <symbol id="icon-chevron" viewBox="0 0 24 24">
+        <path d="m6 9 6 6 6-6"/>
+      </symbol>
+    </defs>
+  </svg>
+  <a class="skip-link" href="#directory">블로그 목록으로 건너뛰기</a>
+  <header id="top" class="masthead" tabindex="-1">
+    <div class="frame masthead-inner">
+      <a class="wordmark" href="./index.html" aria-label="techblog 첫 화면">
+        <span class="book-mark" aria-hidden="true"><i></i><i></i><i></i></span>techblog
+      </a>
+      <a class="star-link" href="https://github.com/seonggwonyoon/techblog" target="_blank" rel="noopener noreferrer"
+         aria-label="새 탭에서 GitHub 저장소를 열어 Star 주기">
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 2.8 5.8 6.4.9-4.6 4.5 1.1 6.3-5.7-3-5.7 3 1.1-6.3-4.6-4.5 6.4-.9Z"/></svg>
+        GitHub에서 Star
+      </a>
+    </div>
+  </header>
+  <main class="frame">
+    <section class="intro" aria-labelledby="page-title">
+      <div class="intro-copy">
+        <h1 id="page-title">기술 블로그 모음</h1>
+        <p>국내외 개발팀이 기록한 설계와 운영 경험</p>
+      </div>
+      <section class="subscription" aria-labelledby="subscription-title">
+        <div>
+          <h2 id="subscription-title">RSS 리더로 가져오기</h2>
+          <p id="feed-summary">현재 목록의 피드 104개</p>
+        </div>
+        <a id="download-feeds" href="feeds.opml" download="techblog-feeds.opml" aria-describedby="feed-summary">
+          OPML 내려받기
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m-4-4 4 4 4-4M5 16v4h14v-4"/></svg>
+        </a>
+      </section>
+    </section>
+    <section id="directory" class="directory" aria-label="블로그 디렉터리" tabindex="-1">
+      <form id="filters" class="interactive" role="search">
+        <label class="search-box" for="query">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+            <circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4.5 4.5"/>
+          </svg>
+          <span class="sr-only">회사명 또는 주제 검색</span>
+          <input id="query" type="search" placeholder="회사명 또는 주제 검색" autocomplete="off" enterkeyhint="search">
+        </label>
+      </form>
+      <details class="topic-picker interactive" open>
+        <summary>
+          주제 <span id="current-topic">전체 주제</span>
+          <svg class="icon chevron" aria-hidden="true"><use href="#icon-chevron"/></svg>
+        </summary>
+        <fieldset class="topic-list">
+          <legend class="sr-only">주제 선택</legend>
+          <label><input form="filters" type="radio" name="topic" value="" checked><span>전체 주제 <small>143</small></span></label>
+          <label><input form="filters" type="radio" name="topic" value="AI"><span>AI <small>59</small></span></label>
+          <label><input form="filters" type="radio" name="topic" value="개발 도구"><span>개발 도구 <small>34</small></span></label>
+          <label><input form="filters" type="radio" name="topic" value="게임"><span>게임 <small>6</small></span></label>
+          <label><input form="filters" type="radio" name="topic" value="공급망 보안"><span>공급망 보안 <small>5</small></span></label>
+          <label><input form="filters" type="radio" name="topic" value="네트워크"><span>네트워크 <small>8</small></span></label>
+          <label><input form="filters" type="radio" name="topic" value="데이터"><span>데이터 <small>42</small></span></label>
+          <label><input form="filters" type="radio" name="topic" value="로보틱스"><span>로보틱스 <small>5</small></span></label>
+          <label><input form="filters" type="radio" name="topic" value="모바일"><span>모바일 <small>33</small></span></label>
+          <label><input form="filters" type="radio" name="topic" value="반도체"><span>반도체 <small>5</small></span></label>
+          <label><input form="filters" type="radio" name="topic" value="백엔드"><span>백엔드 <small>53</small></span></label>
+          <label><input form="filters" type="radio" name="topic" value="보안"><span>보안 <small>33</small></span></label>
+          <label><input form="filters" type="radio" name="topic" value="위협 분석"><span>위협 분석 <small>21</small></span></label>
+          <label><input form="filters" type="radio" name="topic" value="인프라"><span>인프라 <small>57</small></span></label>
+          <label><input form="filters" type="radio" name="topic" value="클라우드 보안"><span>클라우드 보안 <small>5</small></span></label>
+          <label><input form="filters" type="radio" name="topic" value="프론트엔드"><span>프론트엔드 <small>29</small></span></label>
+        </fieldset>
+      </details>
+      <div class="catalog">
+        <div class="list-tools">
+          <fieldset class="scopes interactive">
+            <legend class="sr-only">목록 범위</legend>
+            <label><input form="filters" type="radio" name="scope" value="all" checked><span>전체</span></label>
+            <label><input form="filters" type="radio" name="scope" value="국내"><span>국내</span></label>
+            <label><input form="filters" type="radio" name="scope" value="해외"><span>해외</span></label>
+            <label><input form="filters" type="radio" name="scope" value="quiet"><span>1년 새 글 없음</span></label>
+            <label><input form="filters" type="radio" name="scope" value="archive"><span>아카이브</span></label>
+          </fieldset>
+          <label class="feed-filter interactive">
+            <input form="filters" type="checkbox" id="with-feed">RSS만 보기
+          </label>
+          <div class="result-line">
+            <div class="result-summary">
+              <h2 id="result-count" aria-live="polite" aria-atomic="true">블로그 143곳</h2>
+              <button type="button" id="reset" hidden>필터 초기화</button>
+            </div>
+            <span class="column-label" aria-hidden="true">주제</span>
+            <span class="column-label" aria-hidden="true">구독</span>
+          </div>
+        </div>
+        <ul id="blog-list" class="blog-list">
+          <li class="entry" data-region="국내" data-aliases="포티투닷 자율주행 SDV">
+            <div class="identity">
+              <a class="blog-name" href="https://42dot.ai/ko/stories/blog-news">42dot</a>
+              <div class="address">국내 <span aria-hidden="true">·</span> 42dot.ai</div>
+            </div>
+            <div class="tags"><span class="tag">AI</span>, <span class="tag">로보틱스</span>, <span class="tag">모바일</span></div>
+            <div class="entry-feed"></div>
+          </li>
+          <li class="entry" data-region="국내" data-aliases="">
+            <div class="identity">
+              <a class="blog-name" href="https://www.44bits.io/">44BITS</a>
+              <div class="address">국내 <span aria-hidden="true">·</span> www.44bits.io</div>
+            </div>
+            <div class="tags"><span class="tag">인프라</span>, <span class="tag">개발 도구</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://www.44bits.io/feed.xml" aria-label="44BITS RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>RSS</a></div>
+          </li>
+          <li class="entry" data-region="국내" data-aliases="TOAST Meetup">
+            <div class="identity">
+              <a class="blog-name" href="https://meetup.nhncloud.com/">NHN Cloud Meetup</a>
+              <div class="address">국내 <span aria-hidden="true">·</span> meetup.nhncloud.com</div>
+            </div>
+            <div class="tags"><span class="tag">인프라</span>, <span class="tag">백엔드</span>, <span class="tag">개발 도구</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://meetup.nhncloud.com/rss" aria-label="NHN Cloud Meetup RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>RSS</a></div>
+          </li>
+          <li class="entry" data-region="국내" data-aliases="SK Shieldus 이큐스트 침해 대응">
+            <div class="identity">
+              <a class="blog-name" href="https://www.skshieldus.com/security-insights/reports">SK쉴더스 EQST</a>
+              <div class="address">국내 <span aria-hidden="true">·</span> www.skshieldus.com</div>
+            </div>
+            <div class="tags"><span class="tag">보안</span>, <span class="tag">위협 분석</span></div>
+            <div class="entry-feed"></div>
+          </li>
+          <li class="entry" data-region="국내" data-aliases="힐링페이퍼 Healingpaper">
+            <div class="identity">
+              <a class="blog-name" href="https://blog.gangnamunni.com/blog/tech/">강남언니</a>
+              <div class="address">국내 <span aria-hidden="true">·</span> blog.gangnamunni.com</div>
+            </div>
+            <div class="tags"><span class="tag">백엔드</span>, <span class="tag">인프라</span>, <span class="tag">모바일</span></div>
+            <div class="entry-feed"></div>
+          </li>
+          <li class="entry" data-region="국내" data-aliases="NAVER D2">
+            <div class="identity">
+              <a class="blog-name" href="https://d2.naver.com/helloworld">네이버 D2</a>
+              <div class="address">국내 <span aria-hidden="true">·</span> d2.naver.com</div>
+            </div>
+            <div class="tags"><span class="tag">백엔드</span>, <span class="tag">프론트엔드</span>, <span class="tag">AI</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://d2.naver.com/d2.atom" aria-label="네이버 D2 RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>RSS</a></div>
+          </li>
+          <li class="entry" data-region="국내" data-aliases="NDS">
+            <div class="identity">
+              <a class="blog-name" href="https://tech.cloud.nongshim.co.kr/post/">농심데이타시스템</a>
+              <div class="address">국내 <span aria-hidden="true">·</span> tech.cloud.nongshim.co.kr</div>
+            </div>
+            <div class="tags"><span class="tag">인프라</span>, <span class="tag">데이터</span>, <span class="tag">AI</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://tech.cloud.nongshim.co.kr/feed/" aria-label="농심데이타시스템 RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>RSS</a></div>
+          </li>
+          <li class="entry" data-region="국내" data-aliases="당근마켓 Karrot">
+            <div class="identity">
+              <a class="blog-name" href="https://medium.com/daangn">당근</a>
+              <div class="address">국내 <span aria-hidden="true">·</span> medium.com/daangn</div>
+            </div>
+            <div class="tags"><span class="tag">모바일</span>, <span class="tag">인프라</span>, <span class="tag">AI</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://medium.com/feed/daangn" aria-label="당근 RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>RSS</a></div>
+          </li>
+          <li class="entry" data-region="국내" data-aliases="">
+            <div class="identity">
+              <a class="blog-name" href="https://tech.devsisters.com/">데브시스터즈</a>
+              <div class="address">국내 <span aria-hidden="true">·</span> tech.devsisters.com</div>
+            </div>
+            <div class="tags"><span class="tag">게임</span>, <span class="tag">인프라</span>, <span class="tag">데이터</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://tech.devsisters.com/rss.xml" aria-label="데브시스터즈 RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>RSS</a></div>
+          </li>
+          <li class="entry" data-region="국내" data-aliases="LINE Engineering LY Corporation">
+            <div class="identity">
+              <a class="blog-name" href="https://techblog.lycorp.co.jp/ko">라인야후</a>
+              <div class="address">국내 <span aria-hidden="true">·</span> techblog.lycorp.co.jp</div>
+            </div>
+            <div class="tags"><span class="tag">백엔드</span>, <span class="tag">모바일</span>, <span class="tag">보안</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://techblog.lycorp.co.jp/ko/feed/index.xml" aria-label="라인야후 RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>RSS</a></div>
+          </li>
+          <li class="entry" data-region="국내" data-aliases="Lablup Backend.AI">
+            <div class="identity">
+              <a class="blog-name" href="https://www.backend.ai/ko/blog">래블업</a>
+              <div class="address">국내 <span aria-hidden="true">·</span> www.backend.ai</div>
+            </div>
+            <div class="tags"><span class="tag">AI</span>, <span class="tag">인프라</span>, <span class="tag">개발 도구</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://www.backend.ai/ko/rss/blog-rss.xml" aria-label="래블업 RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>RSS</a></div>
+          </li>
+          <li class="entry" data-region="국내" data-aliases="RIDI">
+            <div class="identity">
+              <a class="blog-name" href="https://ridicorp.com/story-category/tech-blog/">리디</a>
+              <div class="address">국내 <span aria-hidden="true">·</span> ridicorp.com</div>
+            </div>
+            <div class="tags"><span class="tag">모바일</span>, <span class="tag">프론트엔드</span>, <span class="tag">데이터</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://ridicorp.com/story-category/tech-blog/feed/" aria-label="리디 RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>RSS</a></div>
+          </li>
+          <li class="entry" data-region="국내" data-aliases="드라마앤컴퍼니 Remember">
+            <div class="identity">
+              <a class="blog-name" href="https://tech.remember.co.kr/">리멤버</a>
+              <div class="address">국내 <span aria-hidden="true">·</span> tech.remember.co.kr</div>
+            </div>
+            <div class="tags"><span class="tag">백엔드</span>, <span class="tag">모바일</span>, <span class="tag">프론트엔드</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://tech.remember.co.kr/feed" aria-label="리멤버 RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>RSS</a></div>
+          </li>
+          <li class="entry" data-region="국내" data-aliases="Rebellions NPU">
+            <div class="identity">
+              <a class="blog-name" href="https://rebellions.ai/category/blogs/">리벨리온</a>
+              <div class="address">국내 <span aria-hidden="true">·</span> rebellions.ai</div>
+            </div>
+            <div class="tags"><span class="tag">반도체</span>, <span class="tag">AI</span>, <span class="tag">인프라</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://rebellions.ai/category/blogs/feed/" aria-label="리벨리온 RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>RSS</a></div>
+          </li>
+          <li class="entry" data-region="국내" data-aliases="MyRealTrip">
+            <div class="identity">
+              <a class="blog-name" href="https://blog.myrealtrip.com/">마이리얼트립</a>
+              <div class="address">국내 <span aria-hidden="true">·</span> blog.myrealtrip.com</div>
+            </div>
+            <div class="tags"><span class="tag">AI</span>, <span class="tag">개발 도구</span>, <span class="tag">데이터</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://blog.myrealtrip.com/rss/" aria-label="마이리얼트립 RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>RSS</a></div>
+          </li>
+          <li class="entry" data-region="국내" data-aliases="Musinsa 29CM">
+            <div class="identity">
+              <a class="blog-name" href="https://techblog.musinsa.com/">무신사</a>
+              <div class="address">국내 <span aria-hidden="true">·</span> techblog.musinsa.com</div>
+            </div>
+            <div class="tags"><span class="tag">백엔드</span>, <span class="tag">프론트엔드</span>, <span class="tag">인프라</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://techblog.musinsa.com/feed" aria-label="무신사 RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>RSS</a></div>
+          </li>
+          <li class="entry" data-region="국내" data-aliases="">
+            <div class="identity">
+              <a class="blog-name" href="https://corp.banksalad.com/blog/">뱅크샐러드</a>
+              <div class="address">국내 <span aria-hidden="true">·</span> corp.banksalad.com</div>
+            </div>
+            <div class="tags"><span class="tag">모바일</span>, <span class="tag">프론트엔드</span>, <span class="tag">AI</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://corp.banksalad.com/blog/rss.xml" aria-label="뱅크샐러드 RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>RSS</a></div>
+          </li>
+          <li class="entry" data-region="국내" data-aliases="STEALIEN UFO">
+            <div class="identity">
+              <a class="blog-name" href="https://stealien.com/blog">스틸리언</a>
+              <div class="address">국내 <span aria-hidden="true">·</span> stealien.com</div>
+            </div>
+            <div class="tags"><span class="tag">보안</span>, <span class="tag">위협 분석</span>, <span class="tag">모바일</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://stealien.com/blog/feed.xml" aria-label="스틸리언 RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>RSS</a></div>
+          </li>
+          <li class="entry" data-region="국내" data-aliases="Spoqa">
+            <div class="identity">
+              <a class="blog-name" href="https://spoqa.github.io/">스포카</a>
+              <div class="address">국내 <span aria-hidden="true">·</span> spoqa.github.io</div>
+            </div>
+            <div class="tags"><span class="tag">모바일</span>, <span class="tag">프론트엔드</span>, <span class="tag">백엔드</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://spoqa.github.io/atom.xml" aria-label="스포카 RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>RSS</a></div>
+          </li>
+          <li class="entry" data-region="국내" data-aliases="SOCAR">
+            <div class="identity">
+              <a class="blog-name" href="https://tech.socar.kr/">쏘카</a>
+              <div class="address">국내 <span aria-hidden="true">·</span> tech.socar.kr</div>
+            </div>
+            <div class="tags"><span class="tag">백엔드</span>, <span class="tag">데이터</span>, <span class="tag">프론트엔드</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://tech.socar.kr/rss.xml" aria-label="쏘카 RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>RSS</a></div>
+          </li>
+          <li class="entry" data-region="국내" data-aliases="AhnLab 안랩시큐리티대응센터 악성코드">
+            <div class="identity">
+              <a class="blog-name" href="https://asec.ahnlab.com/ko/">안랩 ASEC</a>
+              <div class="address">국내 <span aria-hidden="true">·</span> asec.ahnlab.com</div>
+            </div>
+            <div class="tags"><span class="tag">보안</span>, <span class="tag">위협 분석</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://asec.ahnlab.com/ko/feed/" aria-label="안랩 ASEC RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>RSS</a></div>
+          </li>
+          <li class="entry" data-region="국내" data-aliases="Upstage Solar 솔라">
+            <div class="identity">
+              <a class="blog-name" href="https://www.upstage.ai/ko/blog">업스테이지</a>
+              <div class="address">국내 <span aria-hidden="true">·</span> www.upstage.ai</div>
+            </div>
+            <div class="tags"><span class="tag">AI</span>, <span class="tag">데이터</span></div>
+            <div class="entry-feed"></div>
+          </li>
+          <li class="entry" data-region="국내" data-aliases="S2W 다크웹 TALON">
+            <div class="identity">
+              <a class="blog-name" href="https://www.s2w.inc/ko/resources/blog">에스투더블유</a>
+              <div class="address">국내 <span aria-hidden="true">·</span> www.s2w.inc</div>
+            </div>
+            <div class="tags"><span class="tag">보안</span>, <span class="tag">위협 분석</span>, <span class="tag">데이터</span></div>
+            <div class="entry-feed"></div>
+          </li>
+          <li class="entry" data-region="국내" data-aliases="">
+            <div class="identity">
+              <a class="blog-name" href="https://techblog.gccompany.co.kr/">여기어때</a>
+              <div class="address">국내 <span aria-hidden="true">·</span> techblog.gccompany.co.kr</div>
+            </div>
+            <div class="tags"><span class="tag">백엔드</span>, <span class="tag">데이터</span>, <span class="tag">모바일</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://techblog.gccompany.co.kr/feed" aria-label="여기어때 RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>RSS</a></div>
+          </li>
+          <li class="entry" data-region="국내" data-aliases="버킷플레이스 Bucketplace Ohouse">
+            <div class="identity">
+              <a class="blog-name" href="https://www.bucketplace.com/post/">오늘의집</a>
+              <div class="address">국내 <span aria-hidden="true">·</span> www.bucketplace.com</div>
+            </div>
+            <div class="tags"><span class="tag">데이터</span>, <span class="tag">백엔드</span>, <span class="tag">AI</span></div>
+            <div class="entry-feed"></div>
+          </li>
+          <li class="entry" data-region="국내" data-aliases="CJ Olive Young">
+            <div class="identity">
+              <a class="blog-name" href="https://oliveyoung.tech/">올리브영</a>
+              <div class="address">국내 <span aria-hidden="true">·</span> oliveyoung.tech</div>
+            </div>
+            <div class="tags"><span class="tag">프론트엔드</span>, <span class="tag">모바일</span>, <span class="tag">데이터</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://oliveyoung.tech/rss.xml" aria-label="올리브영 RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>RSS</a></div>
+          </li>
+          <li class="entry" data-region="국내" data-aliases="WATCHA">
+            <div class="identity">
+              <a class="blog-name" href="https://medium.com/watcha">왓챠</a>
+              <div class="address">국내 <span aria-hidden="true">·</span> medium.com/watcha</div>
+            </div>
+            <div class="tags"><span class="tag">AI</span>, <span class="tag">인프라</span>, <span class="tag">백엔드</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://medium.com/feed/watcha" aria-label="왓챠 RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>RSS</a></div>
+          </li>
+          <li class="entry" data-region="국내" data-aliases="YOGIYO">
+            <div class="identity">
+              <a class="blog-name" href="https://techblog.yogiyo.co.kr/">요기요</a>
+              <div class="address">국내 <span aria-hidden="true">·</span> techblog.yogiyo.co.kr</div>
+            </div>
+            <div class="tags"><span class="tag">백엔드</span>, <span class="tag">프론트엔드</span>, <span class="tag">모바일</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://techblog.yogiyo.co.kr/feed" aria-label="요기요 RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>RSS</a></div>
+          </li>
+          <li class="entry" data-region="국내" data-aliases="배달의민족 배민">
+            <div class="identity">
+              <a class="blog-name" href="https://techblog.woowahan.com/">우아한형제들</a>
+              <div class="address">국내 <span aria-hidden="true">·</span> techblog.woowahan.com</div>
+            </div>
+            <div class="tags"><span class="tag">백엔드</span>, <span class="tag">데이터</span>, <span class="tag">인프라</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://techblog.woowahan.com/feed/" aria-label="우아한형제들 RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>RSS</a></div>
+          </li>
+          <li class="entry" data-region="국내" data-aliases="원티드 Wanted">
+            <div class="identity">
+              <a class="blog-name" href="https://medium.com/wantedjobs">원티드랩</a>
+              <div class="address">국내 <span aria-hidden="true">·</span> medium.com/wantedjobs</div>
+            </div>
+            <div class="tags"><span class="tag">AI</span>, <span class="tag">모바일</span>, <span class="tag">프론트엔드</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://medium.com/feed/wantedjobs" aria-label="원티드랩 RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>RSS</a></div>
+          </li>
+          <li class="entry" data-region="국내" data-aliases="ESTsecurity ESRC 알약">
+            <div class="identity">
+              <a class="blog-name" href="https://blog.alyac.co.kr/">이스트시큐리티</a>
+              <div class="address">국내 <span aria-hidden="true">·</span> blog.alyac.co.kr</div>
+            </div>
+            <div class="tags"><span class="tag">보안</span>, <span class="tag">위협 분석</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://blog.alyac.co.kr/rss" aria-label="이스트시큐리티 RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>RSS</a></div>
+          </li>
+          <li class="entry" data-region="국내" data-aliases="인프런">
+            <div class="identity">
+              <a class="blog-name" href="https://tech.inflab.com/">인프랩</a>
+              <div class="address">국내 <span aria-hidden="true">·</span> tech.inflab.com</div>
+            </div>
+            <div class="tags"><span class="tag">백엔드</span>, <span class="tag">프론트엔드</span>, <span class="tag">인프라</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://tech.inflab.com/rss.xml" aria-label="인프랩 RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>RSS</a></div>
+          </li>
+          <li class="entry" data-region="국내" data-aliases="Channel Talk">
+            <div class="identity">
+              <a class="blog-name" href="https://tech.channel.io/kr">채널톡</a>
+              <div class="address">국내 <span aria-hidden="true">·</span> tech.channel.io</div>
+            </div>
+            <div class="tags"><span class="tag">AI</span>, <span class="tag">백엔드</span>, <span class="tag">프론트엔드</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://tech.channel.io/kr/rss.xml" aria-label="채널톡 RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>RSS</a></div>
+          </li>
+          <li class="entry" data-region="국내" data-aliases="">
+            <div class="identity">
+              <a class="blog-name" href="https://tech.kakao.com/blog">카카오</a>
+              <div class="address">국내 <span aria-hidden="true">·</span> tech.kakao.com</div>
+            </div>
+            <div class="tags"><span class="tag">백엔드</span>, <span class="tag">인프라</span>, <span class="tag">AI</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://tech.kakao.com/feed" aria-label="카카오 RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>RSS</a></div>
+          </li>
+          <li class="entry" data-region="국내" data-aliases="KakaoBank">
+            <div class="identity">
+              <a class="blog-name" href="https://tech.kakaobank.com/">카카오뱅크</a>
+              <div class="address">국내 <span aria-hidden="true">·</span> tech.kakaobank.com</div>
+            </div>
+            <div class="tags"><span class="tag">모바일</span>, <span class="tag">백엔드</span>, <span class="tag">AI</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://tech.kakaobank.com/index.xml" aria-label="카카오뱅크 RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>RSS</a></div>
+          </li>
+          <li class="entry" data-region="국내" data-aliases="지그재그">
+            <div class="identity">
+              <a class="blog-name" href="https://devblog.kakaostyle.com/ko/">카카오스타일</a>
+              <div class="address">국내 <span aria-hidden="true">·</span> devblog.kakaostyle.com</div>
+            </div>
+            <div class="tags"><span class="tag">백엔드</span>, <span class="tag">프론트엔드</span>, <span class="tag">모바일</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://devblog.kakaostyle.com/ko/index.xml" aria-label="카카오스타일 RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>RSS</a></div>
+          </li>
+          <li class="entry" data-region="국내" data-aliases="">
+            <div class="identity">
+              <a class="blog-name" href="https://tech.kakaopay.com/">카카오페이</a>
+              <div class="address">국내 <span aria-hidden="true">·</span> tech.kakaopay.com</div>
+            </div>
+            <div class="tags"><span class="tag">백엔드</span>, <span class="tag">프론트엔드</span>, <span class="tag">인프라</span></div>
+            <div class="entry-feed"></div>
+          </li>
+          <li class="entry" data-region="국내" data-aliases="마켓컬리 Kurly">
+            <div class="identity">
+              <a class="blog-name" href="https://helloworld.kurly.com/">컬리</a>
+              <div class="address">국내 <span aria-hidden="true">·</span> helloworld.kurly.com</div>
+            </div>
+            <div class="tags"><span class="tag">데이터</span>, <span class="tag">백엔드</span>, <span class="tag">AI</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://helloworld.kurly.com/rss.xml" aria-label="컬리 RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>RSS</a></div>
+          </li>
+          <li class="entry" data-region="국내" data-aliases="KRAFTON 크래프톤">
+            <div class="identity">
+              <a class="blog-name" href="https://www.krafton.ai/blog/">크래프톤 AI</a>
+              <div class="address">국내 <span aria-hidden="true">·</span> www.krafton.ai</div>
+            </div>
+            <div class="tags"><span class="tag">AI</span>, <span class="tag">게임</span>, <span class="tag">로보틱스</span></div>
+            <div class="entry-feed"></div>
+          </li>
+          <li class="entry" data-region="국내" data-aliases="VCNC">
+            <div class="identity">
+              <a class="blog-name" href="https://blog-tech.tadatada.com/">타다</a>
+              <div class="address">국내 <span aria-hidden="true">·</span> blog-tech.tadatada.com</div>
+            </div>
+            <div class="tags"><span class="tag">모바일</span>, <span class="tag">백엔드</span>, <span class="tag">데이터</span></div>
+            <div class="entry-feed"></div>
+          </li>
+          <li class="entry" data-region="국내" data-aliases="Toss">
+            <div class="identity">
+              <a class="blog-name" href="https://toss.tech/">토스</a>
+              <div class="address">국내 <span aria-hidden="true">·</span> toss.tech</div>
+            </div>
+            <div class="tags"><span class="tag">프론트엔드</span>, <span class="tag">백엔드</span>, <span class="tag">모바일</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://toss.tech/rss.xml" aria-label="토스 RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>RSS</a></div>
+          </li>
+          <li class="entry" data-region="국내" data-aliases="Theori 티오리한국">
+            <div class="identity">
+              <a class="blog-name" href="https://theori.io/ko/blog">티오리</a>
+              <div class="address">국내 <span aria-hidden="true">·</span> theori.io</div>
+            </div>
+            <div class="tags"><span class="tag">보안</span>, <span class="tag">위협 분석</span>, <span class="tag">AI</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://theori.io/ko/blog/rss" aria-label="티오리 RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>RSS</a></div>
+          </li>
+          <li class="entry" data-region="국내" data-aliases="FuriosaAI 퓨리오사에이아이 RNGD">
+            <div class="identity">
+              <a class="blog-name" href="https://furiosa.ai/blog">퓨리오사AI</a>
+              <div class="address">국내 <span aria-hidden="true">·</span> furiosa.ai</div>
+            </div>
+            <div class="tags"><span class="tag">반도체</span>, <span class="tag">AI</span>, <span class="tag">인프라</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://furiosa.ai/blog/rss.xml" aria-label="퓨리오사AI RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>RSS</a></div>
+          </li>
+          <li class="entry" data-region="국내" data-aliases="Hyperconnect">
+            <div class="identity">
+              <a class="blog-name" href="https://hyperconnect.github.io/">하이퍼커넥트</a>
+              <div class="address">국내 <span aria-hidden="true">·</span> hyperconnect.github.io</div>
+            </div>
+            <div class="tags"><span class="tag">AI</span>, <span class="tag">인프라</span>, <span class="tag">모바일</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://hyperconnect.github.io/feed.xml" aria-label="하이퍼커넥트 RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>RSS</a></div>
+          </li>
+          <li class="entry" data-region="해외" data-aliases="원패스워드 인증 패스키">
+            <div class="identity">
+              <a class="blog-name" href="https://1password.com/blog">1Password</a>
+              <div class="address">해외 <span aria-hidden="true">·</span> 1password.com</div>
+            </div>
+            <div class="tags"><span class="tag">보안</span>, <span class="tag">개발 도구</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://1password.com/blog/index.xml" aria-label="1Password RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>RSS</a></div>
+          </li>
+          <li class="entry" data-region="해외" data-aliases="에어비앤비">
+            <div class="identity">
+              <a class="blog-name" href="https://airbnb.tech/">Airbnb</a>
+              <div class="address">해외 <span aria-hidden="true">·</span> airbnb.tech</div>
+            </div>
+            <div class="tags"><span class="tag">데이터</span>, <span class="tag">인프라</span>, <span class="tag">AI</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://airbnb.tech/feed/" aria-label="Airbnb RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>RSS</a></div>
+          </li>
+          <li class="entry" data-region="해외" data-aliases="알리바바 큐원 통이첸원">
+            <div class="identity">
+              <a class="blog-name" href="https://qwen.ai/blog">Alibaba Qwen</a>
+              <div class="address">해외 <span aria-hidden="true">·</span> qwen.ai</div>
+            </div>
+            <div class="tags"><span class="tag">AI</span>, <span class="tag">데이터</span></div>
+            <div class="entry-feed"></div>
+          </li>
+          <li class="entry" data-region="해외" data-aliases="">
+            <div class="identity">
+              <a class="blog-name" href="https://developer.amazon.com/apps-and-games/blogs">Amazon Appstore</a>
+              <div class="address">해외 <span aria-hidden="true">·</span> developer.amazon.com</div>
+            </div>
+            <div class="tags"><span class="tag">모바일</span>, <span class="tag">게임</span>, <span class="tag">개발 도구</span></div>
+            <div class="entry-feed"></div>
+          </li>
+          <li class="entry" data-region="해외" data-aliases="앤트로픽 Anthropic Engineering 앤스로픽 안트로픽 Claude 클로드 Antropic Claude Code">
+            <div class="identity">
+              <a class="blog-name" href="https://www.anthropic.com/engineering">Anthropic</a>
+              <div class="address">해외 <span aria-hidden="true">·</span> www.anthropic.com</div>
+            </div>
+            <div class="tags"><span class="tag">AI</span>, <span class="tag">개발 도구</span>, <span class="tag">인프라</span></div>
+            <div class="entry-feed"></div>
+          </li>
+          <li class="entry" data-region="해외" data-aliases="">
+            <div class="identity">
+              <a class="blog-name" href="https://aws.amazon.com/blogs/architecture/">AWS Architecture</a>
+              <div class="address">해외 <span aria-hidden="true">·</span> aws.amazon.com</div>
+            </div>
+            <div class="tags"><span class="tag">인프라</span>, <span class="tag">백엔드</span>, <span class="tag">보안</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://aws.amazon.com/blogs/architecture/feed/" aria-label="AWS Architecture RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>RSS</a></div>
+          </li>
+          <li class="entry" data-region="해외" data-aliases="칼리프 캘리프 Calif Newsletter">
+            <div class="identity">
+              <a class="blog-name" href="https://calif.io/research">Calif</a>
+              <div class="address">해외 <span aria-hidden="true">·</span> calif.io</div>
+            </div>
+            <div class="tags"><span class="tag">보안</span>, <span class="tag">위협 분석</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://blog.calif.io/feed" aria-label="Calif 전체 RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>전체 RSS</a></div>
+          </li>
+          <li class="entry" data-region="해외" data-aliases="캔바">
+            <div class="identity">
+              <a class="blog-name" href="https://www.canva.dev/blog/engineering/">Canva</a>
+              <div class="address">해외 <span aria-hidden="true">·</span> www.canva.dev</div>
+            </div>
+            <div class="tags"><span class="tag">프론트엔드</span>, <span class="tag">백엔드</span>, <span class="tag">인프라</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://www.canva.dev/blog/engineering/feed.xml" aria-label="Canva RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>RSS</a></div>
+          </li>
+          <li class="entry" data-region="해외" data-aliases="세레브라스 웨이퍼 스케일">
+            <div class="identity">
+              <a class="blog-name" href="https://www.cerebras.ai/blog">Cerebras</a>
+              <div class="address">해외 <span aria-hidden="true">·</span> www.cerebras.ai</div>
+            </div>
+            <div class="tags"><span class="tag">반도체</span>, <span class="tag">AI</span>, <span class="tag">인프라</span></div>
+            <div class="entry-feed"></div>
+          </li>
+          <li class="entry" data-region="해외" data-aliases="체인가드 컨테이너">
+            <div class="identity">
+              <a class="blog-name" href="https://www.chainguard.dev/unchained/category/engineering">Chainguard</a>
+              <div class="address">해외 <span aria-hidden="true">·</span> www.chainguard.dev</div>
+            </div>
+            <div class="tags"><span class="tag">보안</span>, <span class="tag">공급망 보안</span>, <span class="tag">인프라</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://www.chainguard.dev/api/rss" aria-label="Chainguard 전체 RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>전체 RSS</a></div>
+          </li>
+          <li class="entry" data-region="해외" data-aliases="체크포인트 CPR">
+            <div class="identity">
+              <a class="blog-name" href="https://research.checkpoint.com/">Check Point Research</a>
+              <div class="address">해외 <span aria-hidden="true">·</span> research.checkpoint.com</div>
+            </div>
+            <div class="tags"><span class="tag">보안</span>, <span class="tag">위협 분석</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://research.checkpoint.com/feed/" aria-label="Check Point Research RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>RSS</a></div>
+          </li>
+          <li class="entry" data-region="해외" data-aliases="시스코 탈로스">
+            <div class="identity">
+              <a class="blog-name" href="https://blog.talosintelligence.com/">Cisco Talos</a>
+              <div class="address">해외 <span aria-hidden="true">·</span> blog.talosintelligence.com</div>
+            </div>
+            <div class="tags"><span class="tag">보안</span>, <span class="tag">위협 분석</span>, <span class="tag">네트워크</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://blog.talosintelligence.com/rss/" aria-label="Cisco Talos RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>RSS</a></div>
+          </li>
+          <li class="entry" data-region="해외" data-aliases="클라우드플레어">
+            <div class="identity">
+              <a class="blog-name" href="https://blog.cloudflare.com/">Cloudflare</a>
+              <div class="address">해외 <span aria-hidden="true">·</span> blog.cloudflare.com</div>
+            </div>
+            <div class="tags"><span class="tag">네트워크</span>, <span class="tag">인프라</span>, <span class="tag">보안</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://blog.cloudflare.com/rss/" aria-label="Cloudflare RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>RSS</a></div>
+          </li>
+          <li class="entry" data-region="해외" data-aliases="코그니션 Devin 데빈">
+            <div class="identity">
+              <a class="blog-name" href="https://cognition.com/blog">Cognition</a>
+              <div class="address">해외 <span aria-hidden="true">·</span> cognition.com</div>
+            </div>
+            <div class="tags"><span class="tag">AI</span>, <span class="tag">개발 도구</span></div>
+            <div class="entry-feed"></div>
+          </li>
+          <li class="entry" data-region="해외" data-aliases="코히어 Cohere For AI Command">
+            <div class="identity">
+              <a class="blog-name" href="https://cohere.com/research">Cohere Labs</a>
+              <div class="address">해외 <span aria-hidden="true">·</span> cohere.com</div>
+            </div>
+            <div class="tags"><span class="tag">AI</span>, <span class="tag">데이터</span></div>
+            <div class="entry-feed"></div>
+          </li>
+          <li class="entry" data-region="해외" data-aliases="코어위브 GPU">
+            <div class="identity">
+              <a class="blog-name" href="https://www.coreweave.com/resources/blogs">CoreWeave</a>
+              <div class="address">해외 <span aria-hidden="true">·</span> www.coreweave.com</div>
+            </div>
+            <div class="tags"><span class="tag">AI</span>, <span class="tag">인프라</span>, <span class="tag">네트워크</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://www.coreweave.com/blog/rss.xml" aria-label="CoreWeave RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>RSS</a></div>
+          </li>
+          <li class="entry" data-region="해외" data-aliases="크라우드스트라이크 Falcon">
+            <div class="identity">
+              <a class="blog-name" href="https://www.crowdstrike.com/en-us/blog/">CrowdStrike</a>
+              <div class="address">해외 <span aria-hidden="true">·</span> www.crowdstrike.com</div>
+            </div>
+            <div class="tags"><span class="tag">보안</span>, <span class="tag">위협 분석</span>, <span class="tag">클라우드 보안</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://www.crowdstrike.com/en-us/blog/feed" aria-label="CrowdStrike RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>RSS</a></div>
+          </li>
+          <li class="entry" data-region="해외" data-aliases="커서 Anysphere">
+            <div class="identity">
+              <a class="blog-name" href="https://cursor.com/blog">Cursor</a>
+              <div class="address">해외 <span aria-hidden="true">·</span> cursor.com</div>
+            </div>
+            <div class="tags"><span class="tag">AI</span>, <span class="tag">개발 도구</span></div>
+            <div class="entry-feed"></div>
+          </li>
+          <li class="entry" data-region="해외" data-aliases="데이터브릭스 Apache Spark">
+            <div class="identity">
+              <a class="blog-name" href="https://www.databricks.com/blog/category/engineering">Databricks</a>
+              <div class="address">해외 <span aria-hidden="true">·</span> www.databricks.com</div>
+            </div>
+            <div class="tags"><span class="tag">데이터</span>, <span class="tag">AI</span>, <span class="tag">인프라</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://www.databricks.com/feed" aria-label="Databricks 전체 RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>전체 RSS</a></div>
+          </li>
+          <li class="entry" data-region="해외" data-aliases="데이터독 관측성 Observability">
+            <div class="identity">
+              <a class="blog-name" href="https://www.datadoghq.com/blog/engineering/">Datadog</a>
+              <div class="address">해외 <span aria-hidden="true">·</span> www.datadoghq.com</div>
+            </div>
+            <div class="tags"><span class="tag">인프라</span>, <span class="tag">데이터</span>, <span class="tag">백엔드</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://www.datadoghq.com/blog/engineering/index.xml" aria-label="Datadog RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>RSS</a></div>
+          </li>
+          <li class="entry" data-region="해외" data-aliases="딥시크 딥시크AI">
+            <div class="identity">
+              <a class="blog-name" href="https://www.deepseek.com/en/news/">DeepSeek</a>
+              <div class="address">해외 <span aria-hidden="true">·</span> www.deepseek.com</div>
+            </div>
+            <div class="tags"><span class="tag">AI</span>, <span class="tag">인프라</span></div>
+            <div class="entry-feed"></div>
+          </li>
+          <li class="entry" data-region="해외" data-aliases="디스코드">
+            <div class="identity">
+              <a class="blog-name" href="https://discord.com/category/engineering">Discord</a>
+              <div class="address">해외 <span aria-hidden="true">·</span> discord.com</div>
+            </div>
+            <div class="tags"><span class="tag">백엔드</span>, <span class="tag">인프라</span>, <span class="tag">네트워크</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://discord.com/blog/rss.xml" aria-label="Discord 전체 RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>전체 RSS</a></div>
+          </li>
+          <li class="entry" data-region="해외" data-aliases="도어대시 도어대쉬">
+            <div class="identity">
+              <a class="blog-name" href="https://careersatdoordash.com/engineering-blog/">DoorDash</a>
+              <div class="address">해외 <span aria-hidden="true">·</span> careersatdoordash.com</div>
+            </div>
+            <div class="tags"><span class="tag">백엔드</span>, <span class="tag">데이터</span>, <span class="tag">AI</span></div>
+            <div class="entry-feed"></div>
+          </li>
+          <li class="entry" data-region="해외" data-aliases="">
+            <div class="identity">
+              <a class="blog-name" href="https://dropbox.tech/">Dropbox</a>
+              <div class="address">해외 <span aria-hidden="true">·</span> dropbox.tech</div>
+            </div>
+            <div class="tags"><span class="tag">인프라</span>, <span class="tag">백엔드</span>, <span class="tag">AI</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://dropbox.tech/feed" aria-label="Dropbox RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>RSS</a></div>
+          </li>
+          <li class="entry" data-region="해외" data-aliases="">
+            <div class="identity">
+              <a class="blog-name" href="https://innovation.ebayinc.com/stories/">eBay</a>
+              <div class="address">해외 <span aria-hidden="true">·</span> innovation.ebayinc.com</div>
+            </div>
+            <div class="tags"><span class="tag">데이터</span>, <span class="tag">백엔드</span>, <span class="tag">AI</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://innovation.ebayinc.com/stories/rss/" aria-label="eBay RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>RSS</a></div>
+          </li>
+          <li class="entry" data-region="해외" data-aliases="엘라스틱 Elastic Security">
+            <div class="identity">
+              <a class="blog-name" href="https://www.elastic.co/security-labs">Elastic Security Labs</a>
+              <div class="address">해외 <span aria-hidden="true">·</span> www.elastic.co</div>
+            </div>
+            <div class="tags"><span class="tag">보안</span>, <span class="tag">위협 분석</span>, <span class="tag">데이터</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://www.elastic.co/security-labs/rss/feed.xml" aria-label="Elastic Security Labs RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>RSS</a></div>
+          </li>
+          <li class="entry" data-region="해외" data-aliases="일레븐랩스 음성 합성 TTS">
+            <div class="identity">
+              <a class="blog-name" href="https://elevenlabs.io/blog/category/research">ElevenLabs</a>
+              <div class="address">해외 <span aria-hidden="true">·</span> elevenlabs.io</div>
+            </div>
+            <div class="tags"><span class="tag">AI</span>, <span class="tag">데이터</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://elevenlabs.io/blog/rss.xml" aria-label="ElevenLabs 전체 RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>전체 RSS</a></div>
+          </li>
+          <li class="entry" data-region="해외" data-aliases="이셋 WeLiveSecurity">
+            <div class="identity">
+              <a class="blog-name" href="https://www.welivesecurity.com/en/">ESET</a>
+              <div class="address">해외 <span aria-hidden="true">·</span> www.welivesecurity.com</div>
+            </div>
+            <div class="tags"><span class="tag">보안</span>, <span class="tag">위협 분석</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://www.welivesecurity.com/en/rss/feed/" aria-label="ESET RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>RSS</a></div>
+          </li>
+          <li class="entry" data-region="해외" data-aliases="피그마">
+            <div class="identity">
+              <a class="blog-name" href="https://www.figma.com/blog/engineering/">Figma</a>
+              <div class="address">해외 <span aria-hidden="true">·</span> www.figma.com</div>
+            </div>
+            <div class="tags"><span class="tag">프론트엔드</span>, <span class="tag">개발 도구</span>, <span class="tag">인프라</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://www.figma.com/blog/feed/atom.xml" aria-label="Figma 전체 RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>전체 RSS</a></div>
+          </li>
+          <li class="entry" data-region="해외" data-aliases="파이어웍스 모델 추론">
+            <div class="identity">
+              <a class="blog-name" href="https://fireworks.ai/blog">Fireworks AI</a>
+              <div class="address">해외 <span aria-hidden="true">·</span> fireworks.ai</div>
+            </div>
+            <div class="tags"><span class="tag">AI</span>, <span class="tag">인프라</span></div>
+            <div class="entry-feed"></div>
+          </li>
+          <li class="entry" data-region="해외" data-aliases="">
+            <div class="identity">
+              <a class="blog-name" href="https://github.blog/engineering/">GitHub</a>
+              <div class="address">해외 <span aria-hidden="true">·</span> github.blog</div>
+            </div>
+            <div class="tags"><span class="tag">개발 도구</span>, <span class="tag">인프라</span>, <span class="tag">백엔드</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://github.blog/engineering/feed/" aria-label="GitHub RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>RSS</a></div>
+          </li>
+          <li class="entry" data-region="해외" data-aliases="깃허브 보안 GitHub 보안">
+            <div class="identity">
+              <a class="blog-name" href="https://github.blog/security/">GitHub Security</a>
+              <div class="address">해외 <span aria-hidden="true">·</span> github.blog</div>
+            </div>
+            <div class="tags"><span class="tag">보안</span>, <span class="tag">공급망 보안</span>, <span class="tag">개발 도구</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://github.blog/security/feed/" aria-label="GitHub Security RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>RSS</a></div>
+          </li>
+          <li class="entry" data-region="해외" data-aliases="딥마인드 구글 딥마인드 Gemini 제미나이 AlphaFold">
+            <div class="identity">
+              <a class="blog-name" href="https://deepmind.google/blog/">Google DeepMind</a>
+              <div class="address">해외 <span aria-hidden="true">·</span> deepmind.google</div>
+            </div>
+            <div class="tags"><span class="tag">AI</span>, <span class="tag">로보틱스</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://deepmind.google/blog/rss.xml" aria-label="Google DeepMind RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>RSS</a></div>
+          </li>
+          <li class="entry" data-region="해외" data-aliases="">
+            <div class="identity">
+              <a class="blog-name" href="https://developers.googleblog.com/en/">Google Developers</a>
+              <div class="address">해외 <span aria-hidden="true">·</span> developers.googleblog.com</div>
+            </div>
+            <div class="tags"><span class="tag">AI</span>, <span class="tag">모바일</span>, <span class="tag">개발 도구</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://developers.googleblog.com/feeds/posts/default/" aria-label="Google Developers RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>RSS</a></div>
+          </li>
+          <li class="entry" data-region="해외" data-aliases="">
+            <div class="identity">
+              <a class="blog-name" href="https://developer.android.com/blog/topics/google-play">Google Play</a>
+              <div class="address">해외 <span aria-hidden="true">·</span> developer.android.com</div>
+            </div>
+            <div class="tags"><span class="tag">모바일</span>, <span class="tag">게임</span>, <span class="tag">보안</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://developer.android.com/static/blog/atom.xml" aria-label="Google Play 전체 RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>전체 RSS</a></div>
+          </li>
+          <li class="entry" data-region="해외" data-aliases="구글 프로젝트 제로 프로젝트제로 제로데이 취약점 연구">
+            <div class="identity">
+              <a class="blog-name" href="https://projectzero.google/">Google Project Zero</a>
+              <div class="address">해외 <span aria-hidden="true">·</span> projectzero.google</div>
+            </div>
+            <div class="tags"><span class="tag">보안</span>, <span class="tag">위협 분석</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://projectzero.google/feed.xml" aria-label="Google Project Zero RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>RSS</a></div>
+          </li>
+          <li class="entry" data-region="해외" data-aliases="구글 보안 Google Online Security">
+            <div class="identity">
+              <a class="blog-name" href="https://blog.google/security/">Google Security Blog</a>
+              <div class="address">해외 <span aria-hidden="true">·</span> blog.google</div>
+            </div>
+            <div class="tags"><span class="tag">보안</span>, <span class="tag">개발 도구</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://blog.google/security/rss/" aria-label="Google Security Blog RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>RSS</a></div>
+          </li>
+          <li class="entry" data-region="해외" data-aliases="Mandiant 맨디언트 GTIG Google Cloud">
+            <div class="identity">
+              <a class="blog-name" href="https://cloud.google.com/blog/topics/threat-intelligence">Google Threat Intelligence</a>
+              <div class="address">해외 <span aria-hidden="true">·</span> cloud.google.com</div>
+            </div>
+            <div class="tags"><span class="tag">보안</span>, <span class="tag">위협 분석</span>, <span class="tag">클라우드 보안</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://cloudblog.withgoogle.com/topics/threat-intelligence/rss/" aria-label="Google Threat Intelligence RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>RSS</a></div>
+          </li>
+          <li class="entry" data-region="해외" data-aliases="">
+            <div class="identity">
+              <a class="blog-name" href="https://engineering.grab.com/">Grab</a>
+              <div class="address">해외 <span aria-hidden="true">·</span> engineering.grab.com</div>
+            </div>
+            <div class="tags"><span class="tag">데이터</span>, <span class="tag">모바일</span>, <span class="tag">AI</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://engineering.grab.com/feed.xml" aria-label="Grab RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>RSS</a></div>
+          </li>
+          <li class="entry" data-region="해외" data-aliases="그로크 GroqCloud LPU">
+            <div class="identity">
+              <a class="blog-name" href="https://groq.com/blog">Groq</a>
+              <div class="address">해외 <span aria-hidden="true">·</span> groq.com</div>
+            </div>
+            <div class="tags"><span class="tag">반도체</span>, <span class="tag">AI</span>, <span class="tag">인프라</span></div>
+            <div class="entry-feed"></div>
+          </li>
+          <li class="entry" data-region="해외" data-aliases="허깅페이스 허깅 페이스 Transformers">
+            <div class="identity">
+              <a class="blog-name" href="https://huggingface.co/blog">Hugging Face</a>
+              <div class="address">해외 <span aria-hidden="true">·</span> huggingface.co</div>
+            </div>
+            <div class="tags"><span class="tag">AI</span>, <span class="tag">데이터</span>, <span class="tag">개발 도구</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://huggingface.co/blog/feed.xml" aria-label="Hugging Face RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>RSS</a></div>
+          </li>
+          <li class="entry" data-region="해외" data-aliases="">
+            <div class="identity">
+              <a class="blog-name" href="https://engineering.fb.com/tag/instagram/">Instagram</a>
+              <div class="address">해외 <span aria-hidden="true">·</span> engineering.fb.com</div>
+            </div>
+            <div class="tags"><span class="tag">모바일</span>, <span class="tag">백엔드</span>, <span class="tag">인프라</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://engineering.fb.com/tag/instagram/feed/" aria-label="Instagram RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>RSS</a></div>
+          </li>
+          <li class="entry" data-region="해외" data-aliases="카스퍼스키 시큐어리스트">
+            <div class="identity">
+              <a class="blog-name" href="https://securelist.com/">Kaspersky Securelist</a>
+              <div class="address">해외 <span aria-hidden="true">·</span> securelist.com</div>
+            </div>
+            <div class="tags"><span class="tag">보안</span>, <span class="tag">위협 분석</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://securelist.com/feed/" aria-label="Kaspersky Securelist RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>RSS</a></div>
+          </li>
+          <li class="entry" data-region="해외" data-aliases="리니어">
+            <div class="identity">
+              <a class="blog-name" href="https://linear.app/now">Linear</a>
+              <div class="address">해외 <span aria-hidden="true">·</span> linear.app</div>
+            </div>
+            <div class="tags"><span class="tag">개발 도구</span>, <span class="tag">프론트엔드</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://linear.app/rss/now.xml" aria-label="Linear RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>RSS</a></div>
+          </li>
+          <li class="entry" data-region="해외" data-aliases="">
+            <div class="identity">
+              <a class="blog-name" href="https://www.linkedin.com/blog/engineering">LinkedIn</a>
+              <div class="address">해외 <span aria-hidden="true">·</span> www.linkedin.com</div>
+            </div>
+            <div class="tags"><span class="tag">데이터</span>, <span class="tag">AI</span>, <span class="tag">인프라</span></div>
+            <div class="entry-feed"></div>
+          </li>
+          <li class="entry" data-region="해외" data-aliases="Facebook 메타 페이스북 Llama 라마">
+            <div class="identity">
+              <a class="blog-name" href="https://engineering.fb.com/">Meta</a>
+              <div class="address">해외 <span aria-hidden="true">·</span> engineering.fb.com</div>
+            </div>
+            <div class="tags"><span class="tag">AI</span>, <span class="tag">인프라</span>, <span class="tag">네트워크</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://engineering.fb.com/feed/" aria-label="Meta RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>RSS</a></div>
+          </li>
+          <li class="entry" data-region="해외" data-aliases="">
+            <div class="identity">
+              <a class="blog-name" href="https://devblogs.microsoft.com/">Microsoft</a>
+              <div class="address">해외 <span aria-hidden="true">·</span> devblogs.microsoft.com</div>
+            </div>
+            <div class="tags"><span class="tag">개발 도구</span>, <span class="tag">AI</span>, <span class="tag">인프라</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://devblogs.microsoft.com/feed/" aria-label="Microsoft RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>RSS</a></div>
+          </li>
+          <li class="entry" data-region="해외" data-aliases="마이크로소프트 보안 Microsoft Threat Intelligence Defender">
+            <div class="identity">
+              <a class="blog-name" href="https://www.microsoft.com/en-us/security/blog/">Microsoft Security</a>
+              <div class="address">해외 <span aria-hidden="true">·</span> www.microsoft.com</div>
+            </div>
+            <div class="tags"><span class="tag">보안</span>, <span class="tag">위협 분석</span>, <span class="tag">클라우드 보안</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://www.microsoft.com/en-us/security/blog/feed/" aria-label="Microsoft Security RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>RSS</a></div>
+          </li>
+          <li class="entry" data-region="해외" data-aliases="미스트랄 르샤 Le Chat">
+            <div class="identity">
+              <a class="blog-name" href="https://mistral.ai/research/">Mistral AI</a>
+              <div class="address">해외 <span aria-hidden="true">·</span> mistral.ai</div>
+            </div>
+            <div class="tags"><span class="tag">AI</span>, <span class="tag">개발 도구</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://mistral.ai/news/rss" aria-label="Mistral AI 전체 RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>전체 RSS</a></div>
+          </li>
+          <li class="entry" data-region="해외" data-aliases="모달 서버리스">
+            <div class="identity">
+              <a class="blog-name" href="https://modal.com/blog">Modal</a>
+              <div class="address">해외 <span aria-hidden="true">·</span> modal.com</div>
+            </div>
+            <div class="tags"><span class="tag">AI</span>, <span class="tag">인프라</span>, <span class="tag">개발 도구</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://modal.com/blog/atom.xml" aria-label="Modal RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>RSS</a></div>
+          </li>
+          <li class="entry" data-region="해외" data-aliases="문샷AI Kimi 키미">
+            <div class="identity">
+              <a class="blog-name" href="https://www.kimi.com/en/blog/">Moonshot AI</a>
+              <div class="address">해외 <span aria-hidden="true">·</span> www.kimi.com</div>
+            </div>
+            <div class="tags"><span class="tag">AI</span>, <span class="tag">개발 도구</span></div>
+            <div class="entry-feed"></div>
+          </li>
+          <li class="entry" data-region="해외" data-aliases="">
+            <div class="identity">
+              <a class="blog-name" href="https://netflixtechblog.com/">Netflix</a>
+              <div class="address">해외 <span aria-hidden="true">·</span> netflixtechblog.com</div>
+            </div>
+            <div class="tags"><span class="tag">데이터</span>, <span class="tag">인프라</span>, <span class="tag">네트워크</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://netflixtechblog.com/feed" aria-label="Netflix RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>RSS</a></div>
+          </li>
+          <li class="entry" data-region="해외" data-aliases="노션">
+            <div class="identity">
+              <a class="blog-name" href="https://www.notion.com/blog/topic/tech">Notion</a>
+              <div class="address">해외 <span aria-hidden="true">·</span> www.notion.com</div>
+            </div>
+            <div class="tags"><span class="tag">백엔드</span>, <span class="tag">데이터</span>, <span class="tag">인프라</span></div>
+            <div class="entry-feed"></div>
+          </li>
+          <li class="entry" data-region="해외" data-aliases="엔비디아 CUDA GPU">
+            <div class="identity">
+              <a class="blog-name" href="https://developer.nvidia.com/blog/">NVIDIA</a>
+              <div class="address">해외 <span aria-hidden="true">·</span> developer.nvidia.com</div>
+            </div>
+            <div class="tags"><span class="tag">AI</span>, <span class="tag">반도체</span>, <span class="tag">로보틱스</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://developer.nvidia.com/blog/feed/" aria-label="NVIDIA RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>RSS</a></div>
+          </li>
+          <li class="entry" data-region="해외" data-aliases="오픈AI 오픈에이아이 ChatGPT 챗GPT 챗지피티 Codex 코덱스">
+            <div class="identity">
+              <a class="blog-name" href="https://openai.com/news/engineering/">OpenAI</a>
+              <div class="address">해외 <span aria-hidden="true">·</span> openai.com</div>
+            </div>
+            <div class="tags"><span class="tag">AI</span>, <span class="tag">인프라</span>, <span class="tag">개발 도구</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://openai.com/news/engineering/rss.xml" aria-label="OpenAI RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>RSS</a></div>
+          </li>
+          <li class="entry" data-region="해외" data-aliases="팔로알토 네트웍스 유닛42 Unit42">
+            <div class="identity">
+              <a class="blog-name" href="https://unit42.paloaltonetworks.com/">Palo Alto Networks Unit 42</a>
+              <div class="address">해외 <span aria-hidden="true">·</span> unit42.paloaltonetworks.com</div>
+            </div>
+            <div class="tags"><span class="tag">보안</span>, <span class="tag">위협 분석</span>, <span class="tag">클라우드 보안</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://unit42.paloaltonetworks.com/feed/" aria-label="Palo Alto Networks Unit 42 RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>RSS</a></div>
+          </li>
+          <li class="entry" data-region="해외" data-aliases="">
+            <div class="identity">
+              <a class="blog-name" href="https://developer.paypal.com/community/blog/">PayPal</a>
+              <div class="address">해외 <span aria-hidden="true">·</span> developer.paypal.com</div>
+            </div>
+            <div class="tags"><span class="tag">백엔드</span>, <span class="tag">프론트엔드</span>, <span class="tag">개발 도구</span></div>
+            <div class="entry-feed"></div>
+          </li>
+          <li class="entry" data-region="해외" data-aliases="퍼플렉시티 Perplexity Frontier Research 검색">
+            <div class="identity">
+              <a class="blog-name" href="https://research.perplexity.ai/">Perplexity</a>
+              <div class="address">해외 <span aria-hidden="true">·</span> research.perplexity.ai</div>
+            </div>
+            <div class="tags"><span class="tag">AI</span>, <span class="tag">데이터</span></div>
+            <div class="entry-feed"></div>
+          </li>
+          <li class="entry" data-region="해외" data-aliases="핀터레스트">
+            <div class="identity">
+              <a class="blog-name" href="https://medium.com/pinterest-engineering">Pinterest</a>
+              <div class="address">해외 <span aria-hidden="true">·</span> medium.com/pinterest-engineering</div>
+            </div>
+            <div class="tags"><span class="tag">데이터</span>, <span class="tag">AI</span>, <span class="tag">인프라</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://medium.com/feed/pinterest-engineering" aria-label="Pinterest RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>RSS</a></div>
+          </li>
+          <li class="entry" data-region="해외" data-aliases="런웨이 RunwayML 영상 생성">
+            <div class="identity">
+              <a class="blog-name" href="https://runway.com/research">Runway</a>
+              <div class="address">해외 <span aria-hidden="true">·</span> runway.com</div>
+            </div>
+            <div class="tags"><span class="tag">AI</span>, <span class="tag">로보틱스</span></div>
+            <div class="entry-feed"></div>
+          </li>
+          <li class="entry" data-region="해외" data-aliases="센드버드 샌드버드">
+            <div class="identity">
+              <a class="blog-name" href="https://sendbird.com/blog/category/engineering">Sendbird</a>
+              <div class="address">해외 <span aria-hidden="true">·</span> sendbird.com</div>
+            </div>
+            <div class="tags"><span class="tag">모바일</span>, <span class="tag">백엔드</span>, <span class="tag">개발 도구</span></div>
+            <div class="entry-feed"></div>
+          </li>
+          <li class="entry" data-region="해외" data-aliases="센티넬원 SentinelLABS">
+            <div class="identity">
+              <a class="blog-name" href="https://www.sentinelone.com/labs/">SentinelOne</a>
+              <div class="address">해외 <span aria-hidden="true">·</span> www.sentinelone.com</div>
+            </div>
+            <div class="tags"><span class="tag">보안</span>, <span class="tag">위협 분석</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://www.sentinelone.com/labs/feed/" aria-label="SentinelOne RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>RSS</a></div>
+          </li>
+          <li class="entry" data-region="해외" data-aliases="쇼피파이">
+            <div class="identity">
+              <a class="blog-name" href="https://shopify.engineering/">Shopify</a>
+              <div class="address">해외 <span aria-hidden="true">·</span> shopify.engineering</div>
+            </div>
+            <div class="tags"><span class="tag">백엔드</span>, <span class="tag">인프라</span>, <span class="tag">모바일</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://shopify.engineering/blog.atom" aria-label="Shopify RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>RSS</a></div>
+          </li>
+          <li class="entry" data-region="해외" data-aliases="">
+            <div class="identity">
+              <a class="blog-name" href="https://slack.engineering/">Slack</a>
+              <div class="address">해외 <span aria-hidden="true">·</span> slack.engineering</div>
+            </div>
+            <div class="tags"><span class="tag">백엔드</span>, <span class="tag">모바일</span>, <span class="tag">인프라</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://slack.engineering/feed/" aria-label="Slack RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>RSS</a></div>
+          </li>
+          <li class="entry" data-region="해외" data-aliases="스노우플레이크">
+            <div class="identity">
+              <a class="blog-name" href="https://www.snowflake.com/en/blog/engineering/">Snowflake</a>
+              <div class="address">해외 <span aria-hidden="true">·</span> www.snowflake.com</div>
+            </div>
+            <div class="tags"><span class="tag">데이터</span>, <span class="tag">인프라</span>, <span class="tag">AI</span></div>
+            <div class="entry-feed"></div>
+          </li>
+          <li class="entry" data-region="해외" data-aliases="스닉 오픈소스 보안">
+            <div class="identity">
+              <a class="blog-name" href="https://snyk.io/blog/">Snyk</a>
+              <div class="address">해외 <span aria-hidden="true">·</span> snyk.io</div>
+            </div>
+            <div class="tags"><span class="tag">보안</span>, <span class="tag">공급망 보안</span>, <span class="tag">개발 도구</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://snyk.io/blog/feed/" aria-label="Snyk RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>RSS</a></div>
+          </li>
+          <li class="entry" data-region="해외" data-aliases="소켓 오픈소스 보안">
+            <div class="identity">
+              <a class="blog-name" href="https://socket.dev/blog">Socket</a>
+              <div class="address">해외 <span aria-hidden="true">·</span> socket.dev</div>
+            </div>
+            <div class="tags"><span class="tag">보안</span>, <span class="tag">공급망 보안</span>, <span class="tag">개발 도구</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://socket.dev/api/blog/feed.atom" aria-label="Socket RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>RSS</a></div>
+          </li>
+          <li class="entry" data-region="해외" data-aliases="소포스 Sophos X-Ops">
+            <div class="identity">
+              <a class="blog-name" href="https://www.sophos.com/en-us/blog/category/threat-research">Sophos</a>
+              <div class="address">해외 <span aria-hidden="true">·</span> www.sophos.com</div>
+            </div>
+            <div class="tags"><span class="tag">보안</span>, <span class="tag">위협 분석</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://www.sophos.com/en-us/category/threat-research/feed" aria-label="Sophos RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>RSS</a></div>
+          </li>
+          <li class="entry" data-region="해외" data-aliases="스포티파이">
+            <div class="identity">
+              <a class="blog-name" href="https://engineering.atspotify.com/">Spotify</a>
+              <div class="address">해외 <span aria-hidden="true">·</span> engineering.atspotify.com</div>
+            </div>
+            <div class="tags"><span class="tag">AI</span>, <span class="tag">데이터</span>, <span class="tag">인프라</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://engineering.atspotify.com/feed" aria-label="Spotify RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>RSS</a></div>
+          </li>
+          <li class="entry" data-region="해외" data-aliases="">
+            <div class="identity">
+              <a class="blog-name" href="https://stripe.dev/blog/topic/engineering">Stripe</a>
+              <div class="address">해외 <span aria-hidden="true">·</span> stripe.dev</div>
+            </div>
+            <div class="tags"><span class="tag">백엔드</span>, <span class="tag">인프라</span>, <span class="tag">개발 도구</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://stripe.dev/blog/feed" aria-label="Stripe 전체 RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>전체 RSS</a></div>
+          </li>
+          <li class="entry" data-region="해외" data-aliases="수파베이스 슈퍼베이스 Postgres">
+            <div class="identity">
+              <a class="blog-name" href="https://supabase.com/blog">Supabase</a>
+              <div class="address">해외 <span aria-hidden="true">·</span> supabase.com</div>
+            </div>
+            <div class="tags"><span class="tag">데이터</span>, <span class="tag">백엔드</span>, <span class="tag">개발 도구</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://supabase.com/rss.xml" aria-label="Supabase RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>RSS</a></div>
+          </li>
+          <li class="entry" data-region="해외" data-aliases="테일스케일 WireGuard">
+            <div class="identity">
+              <a class="blog-name" href="https://tailscale.com/blog">Tailscale</a>
+              <div class="address">해외 <span aria-hidden="true">·</span> tailscale.com</div>
+            </div>
+            <div class="tags"><span class="tag">네트워크</span>, <span class="tag">보안</span>, <span class="tag">인프라</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://tailscale.com/blog/index.xml" aria-label="Tailscale RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>RSS</a></div>
+          </li>
+          <li class="entry" data-region="해외" data-aliases="투게더AI 모델 추론">
+            <div class="identity">
+              <a class="blog-name" href="https://www.together.ai/blog">Together AI</a>
+              <div class="address">해외 <span aria-hidden="true">·</span> www.together.ai</div>
+            </div>
+            <div class="tags"><span class="tag">AI</span>, <span class="tag">인프라</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://www.together.ai/blog/rss.xml" aria-label="Together AI RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>RSS</a></div>
+          </li>
+          <li class="entry" data-region="해외" data-aliases="트레일 오브 비츠 암호학">
+            <div class="identity">
+              <a class="blog-name" href="https://blog.trailofbits.com/">Trail of Bits</a>
+              <div class="address">해외 <span aria-hidden="true">·</span> blog.trailofbits.com</div>
+            </div>
+            <div class="tags"><span class="tag">보안</span>, <span class="tag">공급망 보안</span>, <span class="tag">개발 도구</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://blog.trailofbits.com/index.xml" aria-label="Trail of Bits RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>RSS</a></div>
+          </li>
+          <li class="entry" data-region="해외" data-aliases="트렌드마이크로 TrendAI">
+            <div class="identity">
+              <a class="blog-name" href="https://www.trendmicro.com/en_us/research.html">Trend Micro Research</a>
+              <div class="address">해외 <span aria-hidden="true">·</span> www.trendmicro.com</div>
+            </div>
+            <div class="tags"><span class="tag">보안</span>, <span class="tag">위협 분석</span></div>
+            <div class="entry-feed"></div>
+          </li>
+          <li class="entry" data-region="해외" data-aliases="">
+            <div class="identity">
+              <a class="blog-name" href="https://tech.trivago.com/">trivago</a>
+              <div class="address">해외 <span aria-hidden="true">·</span> tech.trivago.com</div>
+            </div>
+            <div class="tags"><span class="tag">백엔드</span>, <span class="tag">데이터</span>, <span class="tag">인프라</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://tech.trivago.com/rss.xml" aria-label="trivago RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>RSS</a></div>
+          </li>
+          <li class="entry" data-region="해외" data-aliases="우버">
+            <div class="identity">
+              <a class="blog-name" href="https://www.uber.com/us/en/blog/engineering/">Uber</a>
+              <div class="address">해외 <span aria-hidden="true">·</span> www.uber.com</div>
+            </div>
+            <div class="tags"><span class="tag">백엔드</span>, <span class="tag">데이터</span>, <span class="tag">인프라</span></div>
+            <div class="entry-feed"></div>
+          </li>
+          <li class="entry" data-region="해외" data-aliases="버셀 Next.js">
+            <div class="identity">
+              <a class="blog-name" href="https://vercel.com/blog/category/engineering">Vercel</a>
+              <div class="address">해외 <span aria-hidden="true">·</span> vercel.com</div>
+            </div>
+            <div class="tags"><span class="tag">프론트엔드</span>, <span class="tag">인프라</span>, <span class="tag">개발 도구</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://vercel.com/atom" aria-label="Vercel 전체 RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>전체 RSS</a></div>
+          </li>
+          <li class="entry" data-region="해외" data-aliases="위즈 Wiz Research">
+            <div class="identity">
+              <a class="blog-name" href="https://www.wiz.io/blog/tag/research">Wiz</a>
+              <div class="address">해외 <span aria-hidden="true">·</span> www.wiz.io</div>
+            </div>
+            <div class="tags"><span class="tag">보안</span>, <span class="tag">클라우드 보안</span>, <span class="tag">위협 분석</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://www.wiz.io/feed/rss.xml" aria-label="Wiz 전체 RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>전체 RSS</a></div>
+          </li>
+          <li class="entry" data-region="해외" data-aliases="Twitter">
+            <div class="identity">
+              <a class="blog-name" href="https://blog.x.com/en/engineering">X Engineering</a>
+              <div class="address">해외 <span aria-hidden="true">·</span> blog.x.com</div>
+            </div>
+            <div class="tags"><span class="tag">데이터</span>, <span class="tag">백엔드</span>, <span class="tag">인프라</span></div>
+            <div class="entry-feed"></div>
+          </li>
+          <li class="entry" data-region="해외" data-aliases="Grok 그록 엑스에이아이 SpaceXSI">
+            <div class="identity">
+              <a class="blog-name" href="https://x.ai/news">xAI</a>
+              <div class="address">해외 <span aria-hidden="true">·</span> x.ai</div>
+            </div>
+            <div class="tags"><span class="tag">AI</span>, <span class="tag">개발 도구</span></div>
+            <div class="entry-feed"></div>
+          </li>
+        </ul>
+        <details class="blog-group" id="quiet-blogs">
+          <summary><svg class="icon chevron" aria-hidden="true"><use href="#icon-chevron"/></svg>
+            최근 1년 새 글 없음 <span class="group-count">16곳</span></summary>
+          <p>2026-11-25 점검 기준으로 등록된 발행처에 최근 1년간 새 글이 없었습니다. 마지막 발행일은 한국 시간 기준입니다.</p>
+          <ul class="blog-list">
+            <li class="entry" data-region="해외" data-aliases="" data-quiet>
+            <div class="identity">
+              <a class="blog-name" href="https://www.riotgames.com/en/news?q=tech%20blog">Riot Games</a>
+              <div class="address">해외 <span aria-hidden="true">·</span> www.riotgames.com</div>
+              <a class="last-post" href="https://2xko.riotgames.com/en-us/news/dev/how-2xko-handles-online-play/" title="2026-11-25 확인" aria-label="Riot Games 마지막 글 2025-10-16">마지막 글 <time datetime="2025-10-16">2025-10-16</time></a>
+            </div>
+            <div class="tags"><span class="tag">게임</span>, <span class="tag">네트워크</span>, <span class="tag">백엔드</span></div>
+            <div class="entry-feed"></div>
+          </li>
+<li class="entry" data-region="국내" data-aliases="콴다 QANDA" data-quiet>
+            <div class="identity">
+              <a class="blog-name" href="https://blog.mathpresso.com/">매스프레소</a>
+              <div class="address">국내 <span aria-hidden="true">·</span> blog.mathpresso.com</div>
+              <a class="last-post" href="https://blog.mathpresso.com/how-was-the-new-qanda-agent-built-73f66934f006" title="2026-11-25 확인" aria-label="매스프레소 마지막 글 2025-08-07">마지막 글 <time datetime="2025-08-07">2025-08-07</time></a>
+            </div>
+            <div class="tags"><span class="tag">AI</span>, <span class="tag">모바일</span>, <span class="tag">백엔드</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://blog.mathpresso.com/feed" aria-label="매스프레소 RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>RSS</a></div>
+          </li>
+<li class="entry" data-region="국내" data-aliases="" data-quiet>
+            <div class="identity">
+              <a class="blog-name" href="https://danawalab.github.io/">다나와</a>
+              <div class="address">국내 <span aria-hidden="true">·</span> danawalab.github.io</div>
+              <a class="last-post" href="https://danawalab.github.io/ios/2025/08/04/iOS-cicd-provisioning-profile.html" title="2026-11-25 확인" aria-label="다나와 마지막 글 2025-08-04">마지막 글 <time datetime="2025-08-04">2025-08-04</time></a>
+            </div>
+            <div class="tags"><span class="tag">모바일</span>, <span class="tag">백엔드</span>, <span class="tag">개발 도구</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://danawalab.github.io/feed.xml" aria-label="다나와 RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>RSS</a></div>
+          </li>
+<li class="entry" data-region="국내" data-aliases="" data-quiet>
+            <div class="identity">
+              <a class="blog-name" href="https://ui.toast.com/posts/ko/">TOAST UI</a>
+              <div class="address">국내 <span aria-hidden="true">·</span> ui.toast.com</div>
+              <a class="last-post" href="https://ui.toast.com/posts/ko_chrome_report_202505" title="2026-11-25 확인" aria-label="TOAST UI 마지막 글 2025-05-29">마지막 글 <time datetime="2025-05-29">2025-05-29</time></a>
+            </div>
+            <div class="tags"><span class="tag">프론트엔드</span>, <span class="tag">개발 도구</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://ui.toast.com/rss.xml" aria-label="TOAST UI RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>RSS</a></div>
+          </li>
+<li class="entry" data-region="국내" data-aliases="Planetarium" data-quiet>
+            <div class="identity">
+              <a class="blog-name" href="https://snack.planetarium.dev/kor/">플라네타리움</a>
+              <div class="address">국내 <span aria-hidden="true">·</span> snack.planetarium.dev</div>
+              <a class="last-post" href="https://snack.planetarium.dev/kor/2025/03/asset-load-3/" title="2026-11-25 확인" aria-label="플라네타리움 마지막 글 2025-03-20">마지막 글 <time datetime="2025-03-20">2025-03-20</time></a>
+            </div>
+            <div class="tags"><span class="tag">게임</span>, <span class="tag">백엔드</span>, <span class="tag">개발 도구</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://snack.planetarium.dev/kor/index.xml" aria-label="플라네타리움 RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>RSS</a></div>
+          </li>
+<li class="entry" data-region="국내" data-aliases="Coupang" data-quiet>
+            <div class="identity">
+              <a class="blog-name" href="https://medium.com/coupang-engineering">쿠팡</a>
+              <div class="address">국내 <span aria-hidden="true">·</span> medium.com/coupang-engineering</div>
+              <a class="last-post" href="https://medium.com/coupang-engineering/accelerating-coupangs-ai-journey-with-llms-2817d55004d3" title="2026-11-25 확인" aria-label="쿠팡 마지막 글 2024-10-15">마지막 글 <time datetime="2024-10-15">2024-10-15</time></a>
+            </div>
+            <div class="tags"><span class="tag">백엔드</span>, <span class="tag">데이터</span>, <span class="tag">인프라</span></div>
+            <div class="entry-feed"></div>
+          </li>
+<li class="entry" data-region="국내" data-aliases="에잇퍼센트" data-quiet>
+            <div class="identity">
+              <a class="blog-name" href="https://8percent.github.io/">8퍼센트</a>
+              <div class="address">국내 <span aria-hidden="true">·</span> 8percent.github.io</div>
+              <a class="last-post" href="https://8percent.github.io/2024-07-15/frontend-eds-improvement/" title="2026-11-25 확인" aria-label="8퍼센트 마지막 글 2024-07-15">마지막 글 <time datetime="2024-07-15">2024-07-15</time></a>
+            </div>
+            <div class="tags"><span class="tag">프론트엔드</span>, <span class="tag">데이터</span>, <span class="tag">백엔드</span></div>
+            <div class="entry-feed"></div>
+          </li>
+<li class="entry" data-region="국내" data-aliases="Dable" data-quiet>
+            <div class="identity">
+              <a class="blog-name" href="https://teamdable.github.io/techblog/">데이블</a>
+              <div class="address">국내 <span aria-hidden="true">·</span> teamdable.github.io</div>
+              <a class="last-post" href="https://teamdable.github.io/techblog/Boosting-Fine-Tuning-of-LM" title="2026-11-25 확인" aria-label="데이블 마지막 글 2024-07-15">마지막 글 <time datetime="2024-07-15">2024-07-15</time></a>
+            </div>
+            <div class="tags"><span class="tag">데이터</span>, <span class="tag">AI</span>, <span class="tag">프론트엔드</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://teamdable.github.io/techblog/feed.xml" aria-label="데이블 RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>RSS</a></div>
+          </li>
+<li class="entry" data-region="국내" data-aliases="Zigbang" data-quiet>
+            <div class="identity">
+              <a class="blog-name" href="https://medium.com/zigbang">직방</a>
+              <div class="address">국내 <span aria-hidden="true">·</span> medium.com/zigbang</div>
+              <a class="last-post" href="https://medium.com/zigbang/bit-binary-digit-byte-의-고찰-ebefe5afb8d3" title="2026-11-25 확인" aria-label="직방 마지막 글 2023-12-18">마지막 글 <time datetime="2023-12-18">2023-12-18</time></a>
+            </div>
+            <div class="tags"><span class="tag">모바일</span>, <span class="tag">프론트엔드</span>, <span class="tag">백엔드</span></div>
+            <div class="entry-feed"></div>
+          </li>
+<li class="entry" data-region="국내" data-aliases="Humanscape" data-quiet>
+            <div class="identity">
+              <a class="blog-name" href="https://medium.com/humanscape-tech">휴먼스케이프</a>
+              <div class="address">국내 <span aria-hidden="true">·</span> medium.com/humanscape-tech</div>
+              <a class="last-post" href="https://medium.com/humanscape-tech/koa-project-nestjs-적용기-레거시-개선을-통한-코드-구조-개선-fab40bf987f4" title="2026-11-25 확인" aria-label="휴먼스케이프 마지막 글 2023-06-28">마지막 글 <time datetime="2023-06-28">2023-06-28</time></a>
+            </div>
+            <div class="tags"><span class="tag">백엔드</span>, <span class="tag">모바일</span>, <span class="tag">인프라</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://medium.com/feed/humanscape-tech" aria-label="휴먼스케이프 RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>RSS</a></div>
+          </li>
+<li class="entry" data-region="국내" data-aliases="CLASS101" data-quiet>
+            <div class="identity">
+              <a class="blog-name" href="https://medium.com/class101">클래스101</a>
+              <div class="address">국내 <span aria-hidden="true">·</span> medium.com/class101</div>
+              <a class="last-post" href="https://medium.com/class101/101-sherpa-2023년-4월-호-f4d211743ffd" title="2026-11-25 확인" aria-label="클래스101 마지막 글 2023-05-29">마지막 글 <time datetime="2023-05-29">2023-05-29</time></a>
+            </div>
+            <div class="tags"><span class="tag">프론트엔드</span>, <span class="tag">백엔드</span>, <span class="tag">개발 도구</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://medium.com/feed/class101" aria-label="클래스101 RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>RSS</a></div>
+          </li>
+<li class="entry" data-region="국내" data-aliases="" data-quiet>
+            <div class="identity">
+              <a class="blog-name" href="https://tech.kakaoenterprise.com/">카카오엔터프라이즈</a>
+              <div class="address">국내 <span aria-hidden="true">·</span> tech.kakaoenterprise.com</div>
+              <a class="last-post" href="https://tech.kakaoenterprise.com/194" title="2026-11-25 확인" aria-label="카카오엔터프라이즈 마지막 글 2023-05-19">마지막 글 <time datetime="2023-05-19">2023-05-19</time></a>
+            </div>
+            <div class="tags"><span class="tag">AI</span>, <span class="tag">인프라</span>, <span class="tag">데이터</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://tech.kakaoenterprise.com/rss" aria-label="카카오엔터프라이즈 RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>RSS</a></div>
+          </li>
+<li class="entry" data-region="국내" data-aliases="Yanolja" data-quiet>
+            <div class="identity">
+              <a class="blog-name" href="https://medium.com/yanoljacloud-tech">야놀자</a>
+              <div class="address">국내 <span aria-hidden="true">·</span> medium.com/yanoljacloud-tech</div>
+              <a class="last-post" href="https://medium.com/yanoljacloud-tech/개인-조직-제품-성장의-선순환을-추구하는-문화-b0594b2f3ae5" title="2026-11-25 확인" aria-label="야놀자 마지막 글 2022-09-30">마지막 글 <time datetime="2022-09-30">2022-09-30</time></a>
+            </div>
+            <div class="tags"><span class="tag">백엔드</span>, <span class="tag">인프라</span>, <span class="tag">데이터</span></div>
+            <div class="entry-feed"></div>
+          </li>
+<li class="entry" data-region="국내" data-aliases="ESTsoft" data-quiet>
+            <div class="identity">
+              <a class="blog-name" href="https://blog.est.ai/">이스트소프트</a>
+              <div class="address">국내 <span aria-hidden="true">·</span> blog.est.ai</div>
+              <a class="last-post" href="https://blog.est.ai/2022/06/인공지능-음성-생성-연구-음성-분류-솔루션/" title="2026-11-25 확인" aria-label="이스트소프트 마지막 글 2022-06-10">마지막 글 <time datetime="2022-06-10">2022-06-10</time></a>
+            </div>
+            <div class="tags"><span class="tag">AI</span>, <span class="tag">데이터</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://blog.est.ai/feed.xml" aria-label="이스트소프트 RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>RSS</a></div>
+          </li>
+<li class="entry" data-region="국내" data-aliases="StyleShare" data-quiet>
+            <div class="identity">
+              <a class="blog-name" href="https://medium.com/styleshare">스타일쉐어</a>
+              <div class="address">국내 <span aria-hidden="true">·</span> medium.com/styleshare</div>
+              <a class="last-post" href="https://medium.com/styleshare/사용자-조사로-첫-화면에-의미있는-개선-만들기-ef823b6c4b6c" title="2026-11-25 확인" aria-label="스타일쉐어 마지막 글 2021-01-11">마지막 글 <time datetime="2021-01-11">2021-01-11</time></a>
+            </div>
+            <div class="tags"><span class="tag">모바일</span>, <span class="tag">프론트엔드</span></div>
+            <div class="entry-feed"></div>
+          </li>
+<li class="entry" data-region="국내" data-aliases="DailyHotel" data-quiet>
+            <div class="identity">
+              <a class="blog-name" href="https://medium.com/dailyhotel">데일리호텔</a>
+              <div class="address">국내 <span aria-hidden="true">·</span> medium.com/dailyhotel</div>
+              <a class="last-post" href="https://medium.com/dailyhotel/how-to-use-redux-saga-63a6078c74b3" title="2026-11-25 확인" aria-label="데일리호텔 마지막 글 2019-07-29">마지막 글 <time datetime="2019-07-29">2019-07-29</time></a>
+            </div>
+            <div class="tags"><span class="tag">모바일</span>, <span class="tag">프론트엔드</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://medium.com/feed/dailyhotel" aria-label="데일리호텔 RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>RSS</a></div>
+          </li>
+          </ul>
+        </details>
+        <details class="blog-group" id="archive-blogs">
+          <summary><svg class="icon chevron" aria-hidden="true"><use href="#icon-chevron"/></svg>
+            아카이브 <span class="group-count">2곳</span></summary>
+          <p>글을 옮긴 팀의 예전 발행처와 원문 저장소입니다.</p>
+          <ul class="blog-list">
+            <li class="entry" data-region="국내" data-aliases="" data-archive data-quiet>
+            <div class="identity">
+              <a class="blog-name" href="https://medium.com/29cm">29CM</a> <small class="archive-label">팀 무신사로 이전</small>
+              <div class="address">국내 <span aria-hidden="true">·</span> medium.com/29cm</div>
+              <a class="last-post" href="https://medium.com/29cm/29cm-테크-블로그가-팀-무신사로-이사갑니다-0358344feed2" title="2026-11-25 확인" aria-label="29CM 마지막 글 2025-06-02">마지막 글 <time datetime="2025-06-02">2025-06-02</time></a>
+            </div>
+            <div class="tags"><span class="tag">백엔드</span>, <span class="tag">프론트엔드</span>, <span class="tag">데이터</span></div>
+            <div class="entry-feed"><a class="feed-link" href="https://medium.com/feed/29cm" aria-label="29CM RSS 주소"><svg class="icon" aria-hidden="true"><use href="#icon-rss"/></svg>RSS</a></div>
+          </li>
+<li class="entry" data-region="국내" data-aliases="Lezhin" data-archive data-quiet>
+            <div class="identity">
+              <a class="blog-name" href="https://github.com/lezhin/lezhin.github.io/tree/master/_posts">레진</a> <small class="archive-label">팀의 공개 저장소에 글 원문 보관</small>
+              <div class="address">국내 <span aria-hidden="true">·</span> github.com/lezhin</div>
+              <a class="last-post" href="https://github.com/lezhin/lezhin.github.io/blob/master/_posts/2020-07-15-kotlin-webflux.md" title="2026-11-25 확인" aria-label="레진 마지막 글 2020-07-15">마지막 글 <time datetime="2020-07-15">2020-07-15</time></a>
+            </div>
+            <div class="tags"><span class="tag">프론트엔드</span>, <span class="tag">모바일</span>, <span class="tag">백엔드</span></div>
+            <div class="entry-feed"></div>
+          </li>
+          </ul>
+        </details>
+        <div class="empty-state" hidden>
+          <p>조건에 맞는 블로그가 없습니다.</p>
+          <button type="button" id="show-all">전체 목록 보기</button>
+        </div>
+      </div>
+    </section>
+  </main>
+  <a class="back-to-top" href="#top" aria-label="맨 위로 가기">
+    <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h14M12 20V8m-5 5 5-5 5 5"/></svg>
+    <span>맨 위로</span>
+  </a>
+  <footer class="frame footer">
+    <span class="footer-brand">techblog</span>
+    <a href="https://github.com/seonggwonyoon/techblog/issues/new">
+      블로그 추가·수정 제안
+      <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 18 18 6M7 6h11v11"/></svg>
+    </a>
+  </footer>
+</body>
+</html>

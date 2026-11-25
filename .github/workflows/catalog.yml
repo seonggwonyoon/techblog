@@ -1,0 +1,27 @@
+name: 기술 블로그 목록 검사
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * 1'  # 매주 월요일 오전 9시 (KST)
+
+permissions:
+  contents: read
+
+jobs:
+  catalog:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: 생성 파일 확인
+        run: python3 scripts/build.py --check
+      - name: 검색 스크립트 구문 확인
+        run: node --check docs/directory.js
+      - name: 외부 링크와 피드 점검
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        run: python3 scripts/check_links.py
